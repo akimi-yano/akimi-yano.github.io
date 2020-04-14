@@ -1,6 +1,6 @@
 import React from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub';
-import YouTubeIcon from '@material-ui/icons/YouTube';
+
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 
@@ -25,12 +25,11 @@ const Contact = () => {
                             <h6 className='blue-grey-font contact-label center-align'>LinkedIn</h6></a>
                     </div>
                     <div className="contactdiv col s3">
-                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size" style={{ fontSize: '80px', color:'black'}} />
+                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size" style={{ fontSize: '70px', color:'black'}} />
                             <h6 className='blue-grey-font contact-label center-align'>GitHub</h6></a>
                     </div>
-                    <div className="contactdiv col s3">
-                        <a href='#' className='contactlink' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size" style={{ fontSize: '80px', color:'black' }} />
-                            <h6 className='blue-grey-font contact-label center-align'>Youtube</h6></a>
+                    <div id="imageicon" className="contactdiv col s3"><a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><img className='techimg' src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
+                            <h6 className='blue-grey-font contact-label center-align'>Kaggle</h6></a>
                     </div>
 
                 </div>

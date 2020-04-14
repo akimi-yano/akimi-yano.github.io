@@ -27,7 +27,7 @@ function App() {
   return (
      <div id='main' className='app'>
         <div class="backtotop">
-            <button class="invisible-button" onClick={(e)=>onClickHandler()}><HomeIcon style={{fontSize:'80px'}}/></button>
+            <button class="invisible-button" onClick={(e)=>onClickHandler()}><HomeIcon style={{fontSize:'70px'}}/></button>
         </div>
 
           {/* <MobileNav/> */}

@@ -1,6 +1,7 @@
 import React from 'react'
 import WebIcon from '@material-ui/icons/Web';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 
 const Projects = () => {
     return (
@@ -36,10 +37,13 @@ const Projects = () => {
                                 </div>
                                 <div className='col s3'>
                                     <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
-                                    <h6 className='project-link-label blue-grey-font center-align'>
-                                        Website
-                    </h6>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Website</h6>
                                 </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
+                                </div>
+
                             </div>
                         </div>
                         <div className='projdiv container row col m6 s12 valign-wrapper'>

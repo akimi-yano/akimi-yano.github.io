@@ -19,7 +19,7 @@ const Skills = () => {
                     <div className='col s3 valign'>
                         <img className='techimg' src={process.env.PUBLIC_URL + '/tech2.png'} alt='' />
                     </div>
-                    <div className='col s3 valign'>
+                    <div  className='col s3 valign'>
                         <img className='techimg' src={process.env.PUBLIC_URL + '/tech13.png'} alt='' />
                     </div>
                     <div className='col s3 valign'>

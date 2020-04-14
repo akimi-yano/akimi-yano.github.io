@@ -16,6 +16,12 @@
   #banner{
     zoom: 90%;
   }
+  #imageicon{
+    zoom: 60%;
+  }
+  .title_line{
+    zoom: 60%;
+  }
   .projectOption{
     width: 15vw;
   }
@@ -73,6 +79,12 @@
 @media only screen and (max-width: 700px){
 #banner{
   zoom: 50%;
+}
+#imageicon{
+  zoom: 30%;
+}
+.title_line{
+  zoom:40%;
 }
   .first_impression{
     padding-left: 10%;
@@ -140,11 +152,17 @@ body
   -webkit-scrollbar { width: 0 !important };
 
 }
+#imageicon{
+ margin-top: 15px;
+ width: 240px;
+}
 
 .invisible-button{
-  background-color:transparent;
+  background-color: transparent;
   outline:none;
+  margin-top:5px;
   border:none;
+  border-radius:50%;
 }
 .backtotop {
   position:fixed;
@@ -160,6 +178,9 @@ body
   right:0px;
   bottom:40px;
 }
+.invisible-button:focus{
+  background-color:white;
+}
 .blackfont{
   color:black !important;
   -webkit-transition: color 0.5s ease;
@@ -173,15 +194,31 @@ body
   -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }*/
-.titleName{
+.title_line{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 30px;
+  /* font-size: 5px; */
+  color: black;
+  -webkit-text-stroke: 0.5px palevioletred;
+}
+.title_line h2{
+  text-align: left;
+  margin: -4px;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Chelsea Market', cursive;
+
+}
+/* .titleName{
   font-size: 25px;
   font-weight: normal;
   color: black;
   -webkit-text-stroke: 0.5px palevioletred;
-}
+} */
 
 .tealfont{
-  color: darkcyan !important;
+  color: palevioletred !important;
 } 
 .blue-grey-font{
   color: white;

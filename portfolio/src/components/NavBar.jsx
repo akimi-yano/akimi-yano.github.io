@@ -26,8 +26,12 @@ const NavBar = () => {
            
             <nav className="noboxshadow banner-hidden">
                 <div className="nav-wrapper clear" >
+                <div class="title_line">
+                <h2>Akimi Yano</h2>
+                <h2>Software Engineer</h2>
+                </div>
                 {/* <a href="" data-activates="mobile-demo" className="button-collapse"><ViewListIcon/></a> */}
-                    <a href="" className="titleName" style={{color:'black', margin: '0 20px'}}>Akimi Yano<span className="tealfont"></span></a>
+                    {/* <a href="" className="titleName" style={{color:'black', margin: '0 20px'}}>Akimi Yano<span className="tealfont"></span></a> */}
                     
                     <ul style={{margin: '0 20px'}} className="right hide-on-med-and-down">
                         <li style={{width: '15vw', textAlign:'center'}} ><a className="navlink blackfont aboutbtn" href="#about"><PersonIcon style={{marginBottom:'-4px'}}/> About </a></li>
