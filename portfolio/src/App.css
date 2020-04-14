@@ -173,15 +173,22 @@ body
   -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }*/
+.titleName{
+  font-size: 25px;
+  font-weight: normal;
+  color: black;
+  -webkit-text-stroke: 0.5px palevioletred;
+}
+
 .tealfont{
   color: darkcyan !important;
 } 
 .blue-grey-font{
-  color: #607d8b;
+  color: white;
   font-weight: bold;
 }
 .clear{
-  background-color: #cfd8dc;
+  background-color: white;
   box-shadow: none !important;
   -webkit-transition: background-color 0.5s ease;
   -o-transition: background-color 0.5s ease;
