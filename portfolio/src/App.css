@@ -1,16 +1,32 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Chelsea Market', cursive;
+  
 }
 #sidenav-overlay { z-index: 1; }
 .navbar-fixed { z-index: 999; }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
+#banner{
+  zoom: 50%;
+}
+  .first_impression{
+    padding-left: 10%;
+    padding-top: 3%;
+    zoom: 80%;
+  }
+  .follow_you{
+    margin-left: 3%;
+    margin-top: 3%;
+  }
   .brand-logo{
     margin-left: 0 !important;
   }
+  .icon_size{
+    font-size: 2.5em !important;
+  }
   #technology{
-    min-height:50vh !important;
+    min-height:550px !important;
   }
   #name{
     font-size: 3.3em !important;
@@ -31,8 +47,15 @@
   .projgif{
     width: 100% !important;
   }
-  .parallax-container{
-    height: 20vh !important;
+ 
+  h2{
+    font-size: 2.5em !important;
+  }
+  h3{
+    font-size: 2em !important;
+  }
+  .techimg{
+    margin: 1em !important;
   }
 }
 
@@ -116,14 +139,16 @@ nav{
   z-index: 99;
 }
 
-/* baner*/
+/* banner*/
 .first_impression{
   background-color: transparent;
-  vertical-align: middle;
   display:flex;
   justify-content: space-evenly;
-  height: 311px;
+  /* height: 311px; */
   width: 100%;
+  z-index: 2; 
+  position: absolute; 
+  margin: 2.5% -3%;
 
 
 }
@@ -145,7 +170,7 @@ nav{
   height:20px;
   border-radius:50%;
   margin-left:140px;
-  margin-top:-10.5px;
+  margin-top:1px;
   z-index:3;
   color:yellow;
 }
@@ -154,7 +179,7 @@ nav{
   height:20px;
   border-radius:50%;
   margin-left:140px;
-  margin-top:-10.5px;
+  margin-top:-10px;
   z-index:3;
   color:pink;
 }
@@ -197,26 +222,26 @@ nav{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-right: 80px;
+  /* margin-right: 80px; */
   vertical-align: middle;
   position:absolute;
-  top:18.5%;
-  left:18.5%;
+  top:18%;
+  left:18%;
 
 }
 .outerring {
   background-color: transparent;
-  border:5px solid white;
+  border:4px dotted white;
   border-radius:50%;
   width:300px;
   height:300px;
+  margin:2px;
   animation: rotating 10s linear infinite;
 
 }
 .follow_you{
   display: inline-block;
   width: 600px;
-  padding-top:50px;
   vertical-align: middle;
 }
 .quote{
@@ -321,12 +346,9 @@ li {
   transition: visibility 0s 2s, opacity 2s ease;
 } */
 #banner{
-  height: 40vh !important;
+  height: 376px !important;
 }
-#parallax-zero{
-  background-image: url('/bg0.jpg');
-  height: 20vh;
-}
+
 #parallax-one{
   background-image: url('/bg1.jpg');
 }
@@ -339,7 +361,7 @@ li {
 
 #parallax-one, #parallax-two, #parallax-three{
   
-  height: 20vh;
+  height: 140px;
   /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -350,7 +372,7 @@ li {
 }
 #parallax-zero{
   background-image: url('/bg0.jpg');
-  height: 50vh;
+  height: 1000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

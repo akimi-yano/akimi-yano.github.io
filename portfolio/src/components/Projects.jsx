@@ -4,7 +4,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Projects = () => {
     return (
-        <div id='projects' className='section row container'>
+        <div id='portofolio' className='section row container'>
             <div className='row col s12 center-align'>
                 <h2 id='projecttitle' className='header raleway'>Projects</h2>
                 <ul id='projtitleanimation'>
@@ -15,7 +15,7 @@ const Projects = () => {
                     </li>
                 </ul>
             </div>
-            <ul id='getoutanimation'>
+            <ul id='project1animation'>
                 <li className='projscroll'>
                     <div id='project1' className='row col s12'>
                         <div className='row col s12'>
@@ -27,15 +27,15 @@ const Projects = () => {
                                 description
                 </h6>
                             <h6 className='raleway projtext'>
-                                built with
+                                built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>GitHub</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
@@ -43,12 +43,12 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='projdiv container row col m6 s12 valign-wrapper'>
-                            <img className='projgif valign materialboxed' src='#' alt='project1gif' />
+                            <img className='projgif valign materialboxed' src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='project1gif' />
                         </div>
                     </div>
                 </li>
             </ul>
-            <ul id='forgeanimation'>
+            <ul id='project2animation'>
                 <li className='projscroll'>
                     <div id='project2' className='row col s12'>
                         <div className='row col s12'>
@@ -59,17 +59,17 @@ const Projects = () => {
                                 description
                 </h6>
                             <h6 className='raleway projtext'>
-                                built with
+                            built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon style={{ fontSize: '70px', color:'black'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size"  style={{ fontSize: '70px', color:'black'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='http://leforge.co' target='_blank' rel='noopener noreferrer'><WebIcon style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='http://leforge.co' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
@@ -77,12 +77,12 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='projdiv container row col m6 s12 valign-wrapper'>
-                            <img className='projgif valign materialboxed' src='#' alt='project2gif' />
+                            <img className='projgif valign materialboxed' src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='project2gif' />
                         </div>
                     </div>
                 </li>
             </ul>
-            <ul id='mapshareanimation'>
+            <ul id='project3animation'>
                 <li className='projscroll'>
                     <div id='project3' className='row col s12'>
                         <div className='row col s12'>
@@ -94,17 +94,17 @@ const Projects = () => {
                                 description
                 </h6>
                             <h6 className='raleway projtext'>
-                                built with
+                            built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon style={{ fontSize: '70px', color:'black'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size"  style={{ fontSize: '70px', color:'black'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
@@ -112,12 +112,12 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='projdiv container row col m6 s12 valign-wrapper'>
-                            <img className='projgif valign materialboxed' src='#' alt='project3gif' />
+                            <img className='projgif valign materialboxed' src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='project3gif' />
                         </div>
                     </div>
                 </li>
             </ul>
-            <ul id='iosanimation'>
+            <ul id='project4animation'>
                 <li className='projscroll'>
                     <div id='project4' className='row col s12'>
                         <div className='row col s12'>
@@ -128,17 +128,17 @@ const Projects = () => {
                                 description
                 </h6>
                             <h6 className='raleway projtext'>
-                                built with
+                            built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size" style={{ fontSize: '70px', color:'black' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size" style={{ fontSize: '70px', color:'black' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
@@ -146,9 +146,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='projdiv container row col m6 s12 valign-wrapper'>
-                            <div className='col s6'>
-                                <img className='iosimg materialboxed' src='#' alt='project4gif' />
-                            </div>
+                                <img className='projgif valign materialboxed' src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='project4gif' />
                         </div>
                     </div>
                 </li>
