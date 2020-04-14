@@ -5,7 +5,71 @@
   
 }
 #sidenav-overlay { z-index: 1; }
-.navbar-fixed { z-index: 999; }
+.navbar-fixed { 
+  z-index: 4;
+  position:absolute;
+  height: 64px;
+ }
+
+@media only screen and (max-width: 1400px){
+
+  #banner{
+    zoom: 90%;
+  }
+  .projectOption{
+    width: 15vw;
+  }
+  .projgif, .valign, .materialboxed{
+    margin-top: 10px;
+  }
+  .first_impression{
+      padding-left: 10%;
+      padding-top: 3%;
+      zoom: 90%;
+    }
+    .follow_you{
+      margin-left: 3%;
+      margin-top: 3%;
+    }
+    .brand-logo{
+      margin-left: 0 !important;
+    }
+    .icon_size{
+      font-size: 2.5em !important;
+    }
+    #technology{
+      min-height:550px !important;
+    }
+    #name{
+      font-size: 3.3em !important;
+    }
+    #title{
+      font-size: 2.5em !important;
+      color: white;
+    }
+    .abouttext{
+      font-size: 1.08em !important;
+    }
+    .projtitle{
+      text-align: center !important;
+    }
+    #projecttitle{
+      text-align: center !important;
+    }
+    .projgif{
+      width: 100% !important;
+    }
+   
+    h2{
+      font-size: 2.5em !important;
+    }
+    h3{
+      font-size: 2em !important;
+    }
+    .techimg{
+      margin: 1em !important;
+    }
+}
 @media only screen and (max-width: 700px){
 #banner{
   zoom: 50%;
@@ -59,11 +123,12 @@
   }
 }
 
+
 /*removing scrollbar space*/
 body
 {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -259,7 +324,9 @@ nav{
 
 
 /* nav bar drop down */
+/* #dropdown1{
 
+} */
 li {
   display: block;
   transition-duration: 0.5s;
@@ -372,7 +439,7 @@ li {
 }
 #parallax-zero{
   background-image: url('/bg0.jpg');
-  height: 1000px;
+  height: 1500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -451,11 +518,11 @@ li {
 } 
 
 
-/* .projgif{
-  -webkit-box-shadow: 10px 10px 5px #006D65;
-          box-shadow: 10px 10px 5px #006D65;
+.projgif{
+  -webkit-box-shadow: 10px 10px 5px rgb(214, 113, 130);
+          box-shadow: 10px 10px 5px rgb(214, 113, 130);
   border-radius: 7px;
-} */
+}
 /* .iosimg{
   width: 100%;
 } */
@@ -479,3 +546,23 @@ li {
   width: 100% !important;
   max-width: 120px;
 } */
+
+
+#about {
+  padding-top: 30px;
+}
+#project1 {
+  padding-top: 40px;
+}
+#project2 {
+  padding-top: 40px;
+}
+#project3 {
+  padding-top: 40px;
+}
+#project4 {
+  padding-top: 40px;
+}
+#skills {
+  padding-top: 30px;
+}

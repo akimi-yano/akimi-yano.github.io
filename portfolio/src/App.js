@@ -35,9 +35,9 @@ function App() {
           <Banner/>
           <About/>
           <LineOne/>
-          <Skills/>
-          <LineTwo/>
           <Projects/>
+          <LineTwo/>
+          <Skills/>
           <LineThree/>
           <Contact/>
       </div>

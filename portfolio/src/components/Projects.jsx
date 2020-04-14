@@ -24,10 +24,10 @@ const Projects = () => {
                         <div className='projdiv row col m6 s12'>
 
                             <h6 className='raleway projtext'>
-                                description
+                            I built a machine learning web application that allows users to upload images and videos of faces to experience face recognition technology. It can detect face, shape, parts, blink, wink, sleepiness and show different png images depending on the findings.
                 </h6>
                             <h6 className='raleway projtext'>
-                                built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
+                            Built with Python3, Django, Open CV, NumPy
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
@@ -56,10 +56,10 @@ const Projects = () => {
                         </div>
                         <div className='projdiv row col m6 s12'>
                             <h6 className='raleway projtext'>
-                                description
+                            I built a peer-to-peer multi-lingual video chat webapp. A user can connect with another peer and communicate in different languages using the voice translation feature.
                 </h6>
                             <h6 className='raleway projtext'>
-                            built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
+                            Built with React, Material UI, Web RTC, Firebase/Firestore, Azure Cloud Functions, Azure Speech Translation API, Web Speech API, Leaflet, Mapbox, Illustrator and Photoshop
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
@@ -86,15 +86,15 @@ const Projects = () => {
                 <li className='projscroll'>
                     <div id='project3' className='row col s12'>
                         <div className='row col s12'>
-                            <h3 className='tealfont raleway projtitle'>Guess Pokemon</h3>
+                            <h3 className='tealfont raleway projtitle'>Who's That Pokémon?</h3>
                         </div>
                         <div className='projdiv row col m6 s12'>
 
                             <h6 className='raleway projtext'>
-                                description
+                            I built a "Who's That Pokémon?" game
                 </h6>
                             <h6 className='raleway projtext'>
-                            built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
+                            Built with JavaScript, Jquery, CSS, HTML
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
@@ -125,10 +125,10 @@ const Projects = () => {
                         </div>
                         <div className='projdiv row col m6 s12'>
                             <h6 className='raleway projtext'>
-                                description
+                            Analyzed data from Moon Board rock climbing training system, and identified the easiest Moon Board problems at each difficulty level using Python.
                 </h6>
                             <h6 className='raleway projtext'>
-                            built with Built With: Python | Flask | Pylot | Google Maps/Directions API | Open Weather API A web app designed to help you plan out activities around a chosen location. Plots nearby requested activities or restaurants and saves them to an itinerary for later. Final plans display routes based on the order of the itinerary.
+                            Built with Python, Jupyter notebook, Anaconda
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>

@@ -10,7 +10,7 @@ const About = () => {
                 <ul id='abouttextanimation'>
                     <li className='abouttextscroll'>
                         <h3>Summary</h3>
-                        <h6>Hello, my name is Akimi, and I am a Software Engineer Silicon Valley, California. I love to code. In my spare time, I enjoy going <span
+                        <h6>Hello, my name is Akimi, and I am a Software Engineer in Silicon Valley, California. I love to code. In my spare time, I enjoy going <span
                         class="rock_climbing">rock climbing</span> and traveling to learn new <span
                         class="foreign_languages">foreign languages</span>.</h6>
         
