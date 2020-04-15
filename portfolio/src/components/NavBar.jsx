@@ -9,7 +9,7 @@ import StarIcon from '@material-ui/icons/Star';
 import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 import EmojiNatureIcon from '@material-ui/icons/EmojiNature';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
-import $ from 'jquery'
+
 
 const NavBar = () => {
 

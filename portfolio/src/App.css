@@ -142,6 +142,32 @@ body
     overflow-x: hidden;
     -webkit-scrollbar { width: 0 !important };
 };
+.images{
+  display:inline-block;
+  width:400px;
+  height:300px;
+  padding:200px 25px 0px 100px;
+
+}
+.marker {
+  width:5px;
+  height:5px;
+  background-color:lightslategray;
+  border-radius:50%;
+}
+.markers {
+  display:flex;
+  margin-top:20px;
+  justify-content: space-around;
+}
+.marked {
+  background-color:white;
+}
+.carousel{
+  width:400px;
+  border:2px solid black;
+}
+
 #main{
   overflow-x: hidden;
 
@@ -165,7 +191,7 @@ body
   background-color:white;
   width:80px;
   height:80px;
-  z-index: 2;
+  z-index: 5;
   margin: 25px 50px;
   background-color: white;
   box-shadow:2px 2px 5px black;
@@ -498,9 +524,9 @@ li {
 #projects{
   height: auto;
 }
-/* #abouttxtdiv{
-  margin-bottom: 5%;
-} */
+#abouttxtdiv{
+  width: 50%;
+}
 /* #aboutpictures{
   opacity: 0;
 } */
