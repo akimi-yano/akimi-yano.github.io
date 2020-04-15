@@ -29,7 +29,7 @@ const Contact = () => {
                             <h6 className='blue-grey-font contact-label center-align'>GitHub</h6></a>
                     </div>
                     <div id="imageicon" className="contactdiv col s3"><a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><img className='techimg' src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
-                            <h6 className='blue-grey-font contact-label center-align'>Kaggle</h6></a>
+                            <h6 className='blue-grey-font contact-label center-align'>AI Competition</h6></a>
                     </div>
 
                 </div>

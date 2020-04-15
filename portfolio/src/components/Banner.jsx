@@ -16,7 +16,7 @@ const Banner = () => {
                 </div>
                 <div class="follow_you">
                     <h1 className="quote">"I want to be able to create anything I can imagine."<br/>『自分が思い描いたものを創れるようになりたい。』</h1>
-                    <h5 className='center-align raleway banner-hidden' style={{textAlign:"left"}}>Software Engineer Akimi Yano</h5>
+                    <h5 className='center-align raleway banner-hidden' style={{textAlign:"left"}}>Software Development | AI | Data Science</h5>
  
                 </div>
             </div>

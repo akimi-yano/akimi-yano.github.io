@@ -40,9 +40,7 @@
     .brand-logo{
       margin-left: 0 !important;
     }
-    .icon_size{
-      font-size: 2.5em !important;
-    }
+   
     #technology{
       min-height:550px !important;
     }
@@ -98,9 +96,7 @@
   .brand-logo{
     margin-left: 0 !important;
   }
-  .icon_size{
-    font-size: 2.5em !important;
-  }
+
   #technology{
     min-height:550px !important;
   }
@@ -221,7 +217,7 @@ body
   color: palevioletred !important;
 } 
 .blue-grey-font{
-  color: white;
+  color:gray;
   font-weight: bold;
 }
 .clear{
@@ -605,6 +601,12 @@ li {
   padding-top: 40px;
 }
 #project4 {
+  padding-top: 40px;
+}
+#project5 {
+  padding-top: 40px;
+}
+#project6 {
   padding-top: 40px;
 }
 #skills {

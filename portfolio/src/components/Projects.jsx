@@ -20,6 +20,44 @@ const Projects = () => {
                 <li className='projscroll'>
                     <div id='project1' className='row col s12'>
                         <div className='row col s12'>
+                            <h3 className='tealfont raleway projtitle'>Java/ML Project(仮)</h3>
+                        </div>
+                        <div className='projdiv row col m6 s12'>
+                            <h6 className='raleway projtext'>
+                            I built a website with Java and ML and blah blah blash **********************************************************************************************************************************
+                </h6>
+                            <h6 className='raleway projtext'>
+                            Built with Java, Spache Splash, Panda, Numpy, Sicit, Tensowflow MAYBE
+                </h6>
+                            <div className='row'>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1" style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>
+                                        GitHub
+                    </h6>
+                                </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2" style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>
+                                        Website
+                    </h6>
+                                </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='projdiv container row col m6 s12 valign-wrapper'>
+                                <img className='projgif valign materialboxed' src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='project4gif' />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul id='project2animation'>
+                <li className='projscroll'>
+                    <div id='project2' className='row col s12'>
+                        <div className='row col s12'>
                             <h3 className='tealfont raleway projtitle'>Face Labo</h3>
                         </div>
                         <div className='projdiv row col m6 s12'>
@@ -32,15 +70,15 @@ const Projects = () => {
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>GitHub</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Website</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
 
@@ -52,9 +90,9 @@ const Projects = () => {
                     </div>
                 </li>
             </ul>
-            <ul id='project2animation'>
+            <ul id='project3animation'>
                 <li className='projscroll'>
-                    <div id='project2' className='row col s12'>
+                    <div id='project3' className='row col s12'>
                         <div className='row col s12'>
                             <h3 className='tealfont raleway projtitle'>ice candi</h3>
                         </div>
@@ -67,16 +105,20 @@ const Projects = () => {
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size"  style={{ fontSize: '70px', color:'black'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='http://leforge.co' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='http://leforge.co' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
-                    </h6>
+                                    </h6>
+                                </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px' }}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
                             </div>
                         </div>
@@ -86,9 +128,49 @@ const Projects = () => {
                     </div>
                 </li>
             </ul>
-            <ul id='project3animation'>
+            <ul id='project4animation'>
                 <li className='projscroll'>
-                    <div id='project3' className='row col s12'>
+                    <div id='project4' className='row col s12'>
+                        <div className='row col s12'>
+                            <h3 className='tealfont raleway projtitle'>IOT Face Recognition (仮)</h3>
+                        </div>
+                        <div className='projdiv row col m6 s12'>
+
+                            <h6 className='raleway projtext'>
+                            I built a machine learning IOT that detect and recognize face of human.
+                </h6>
+                            <h6 className='raleway projtext'>
+                            Built with Raspberry Pi, Python3, Open CV, NumPy, CISCO 
+                </h6>
+                            <div className='row'>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>GitHub</h6>
+                                </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Website</h6>
+                                </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className='projdiv container row col m6 s12 valign-wrapper'>
+                            <img className='projgif valign materialboxed' src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='project1gif' />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+
+
+            <ul id='project5animation'>
+                <li className='projscroll'>
+                    <div id='project5' className='row col s12'>
                         <div className='row col s12'>
                             <h3 className='tealfont raleway projtitle'>Who's That Pokémon?</h3>
                         </div>
@@ -102,16 +184,20 @@ const Projects = () => {
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size"  style={{ fontSize: '70px', color:'black'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size"  style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
+                                </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px' }}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
                             </div>
                         </div>
@@ -121,9 +207,9 @@ const Projects = () => {
                     </div>
                 </li>
             </ul>
-            <ul id='project4animation'>
+            <ul id='project6animation'>
                 <li className='projscroll'>
-                    <div id='project4' className='row col s12'>
+                    <div id='project6' className='row col s12'>
                         <div className='row col s12'>
                             <h3 className='tealfont raleway projtitle'>Climbing Training System Analysis</h3>
                         </div>
@@ -136,16 +222,20 @@ const Projects = () => {
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size" style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1" style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size" style={{ fontSize: '70px', color:'black' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2" style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
+                                </div>
+                                <div className='col s3'>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
+                                    <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
                             </div>
                         </div>
@@ -155,6 +245,7 @@ const Projects = () => {
                     </div>
                 </li>
             </ul>
+           
         </div>
     )
 }
