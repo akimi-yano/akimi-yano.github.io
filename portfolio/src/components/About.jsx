@@ -1,5 +1,11 @@
 import React, {useEffect} from 'react'
 import $ from 'jquery'
+import CheckBoxIcon from '@material-ui/icons/CheckBox';
+import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
+import WhatshotIcon from '@material-ui/icons/Whatshot';
+import FlashOnIcon from '@material-ui/icons/FlashOn';
+import ChildCareIcon from '@material-ui/icons/ChildCare';
 const About = () => {
     useEffect(() => {
         // let max = 7
@@ -32,12 +38,11 @@ const About = () => {
             <div id='abouttxtdiv' className="row container abtdiv col m12 s12">
                 <ul id='abouttextanimation'>
                     <li className='abouttextscroll'>
-                        
-                        <h6>Hello, my name is Akimi, and I am a Software Engineer in Silicon Valley, California. I love to code. In my spare time, I enjoy going <span
-                        class="rock_climbing">rock climbing</span> and traveling to learn new <span
-                        class="foreign_languages">foreign languages</span>.</h6>
-                        
-                        <h6>What drives me in coding is my strong desire to turn ideas into reality - creating things I could only imagine through the use of technology.</h6>
+                        <h6>Hello, my name is Akimi <ChildCareIcon/>.</h6>
+                        <h6>I am a Silicon Valley based Software Engineer . I love to code <LaptopMacIcon/>. </h6>
+                        <h6>What drives me in coding is my strong desire to turn ideas into reality <WbIncandescentIcon/>.</h6>
+                        <h6>I have completed several projects and machine learning competition including Kaggle <WhatshotIcon/> .</h6>
+                        <h6>My learning speed is something that I can be proud of, and I will keep learning new things <FlashOnIcon/>.</h6>
                     </li> 
                 </ul>
 

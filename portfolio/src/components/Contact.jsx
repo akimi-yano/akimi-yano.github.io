@@ -1,9 +1,10 @@
 import React from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub';
-
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
-
+import TwitterIcon from '@material-ui/icons/Twitter';
+import CopyrightIcon from '@material-ui/icons/Copyright';
 
 
 const Contact = () => {
