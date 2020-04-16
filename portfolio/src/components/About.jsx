@@ -43,15 +43,16 @@ const About = () => {
 
             </div>
             <div  class="images">
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/0.jpg'} alt="" id="pic0" class="carousel"/>
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/1.jpg'}  alt="" id="pic1" class="carousel hidden"/>
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/2.jpg'} alt="" id="pic2" class="carousel hidden"/>
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/3.jpg'}  alt="" id="pic3" class="carousel hidden"/>
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/4.jpg'}  alt="" id="pic4" class="carousel hidden"/>
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/5.jpg'}  alt="" id="pic5" class="carousel hidden"/>
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/6.jpg'}  alt="" id="pic6" class="carousel hidden"/>
-                <img style={{width: '40%', height: 'auto'}} src={process.env.PUBLIC_URL + '/images/7.jpg'}  alt="" id="pic7" class="carousel hidden"/>
-                    <div class="markers">
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/0.jpg'} alt="" id="pic0" class="carousel"/>
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/1.jpg'}  alt="" id="pic1" class="carousel hidden"/>
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/2.jpg'} alt="" id="pic2" class="carousel hidden"/>
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/3.jpg'}  alt="" id="pic3" class="carousel hidden"/>
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/4.jpg'}  alt="" id="pic4" class="carousel hidden"/>
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/5.jpg'}  alt="" id="pic5" class="carousel hidden"/>
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/6.jpg'}  alt="" id="pic6" class="carousel hidden"/>
+                <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/7.jpg'}  alt="" id="pic7" class="carousel hidden"/>
+            </div>
+            <div class="markers" style={{width: '40%', height: 'auto', float: "right"}}>
                         <div id="mark0" class="marker marked"></div>
                         <div id="mark1" class="marker"></div>
                         <div id="mark2" class="marker"></div>
@@ -61,7 +62,6 @@ const About = () => {
                         <div id="mark6" class="marker"></div>
                         <div id="mark7" class="marker"></div>
                     </div>
-            </div>
             </div>
             {/* <div id='aboutpictures' className="row container abtdiv col m12 s12 center-block">
                 <div className="col m3 s6 abtpicdiv">

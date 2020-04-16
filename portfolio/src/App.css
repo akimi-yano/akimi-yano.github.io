@@ -578,9 +578,10 @@ li {
 #projectdescript{
   font-size: 10%;
 }*/
-#project1, #project2, #project3, #project4{
+#project1, #project2, #project3, #project4, #project5{
   height: auto;
-  border-bottom-style: groove;
+  border-bottom-style: dotted;
+
 } 
 
 
