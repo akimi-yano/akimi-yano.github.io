@@ -11,7 +11,7 @@ const Projects = () => {
                 <ul id='projtitleanimation'>
                     <li className='projtitlescroll'>
                         <h6 id='projectdescript' className='raleway tealfont'>
-                            I want to do more and more exciting projects!
+                        Here are some of the projects I have built.
             </h6>
                     </li>
                 </ul>
@@ -20,24 +20,25 @@ const Projects = () => {
                 <li className='projscroll'>
                     <div id='project1' className='row col s12'>
                         <div className='row col s12'>
-                            <h3 className='tealfont raleway projtitle'>Coronavirus Prediction Center</h3>
+                            <h3 className='tealfont raleway projtitle'>Coronavirus Forecast Center</h3>
                         </div>
                         <div className='projdiv row col m6 s12'>
-                            <h6 className='raleway projtext'>
-                            I built a website with Java and ML and blah blah blash **********************************************************************************************************************************
-                </h6>
-                            <h6 className='raleway projtext'>
-                            Built with Java, Spache Splash, Panda, Numpy, Sicit, Tensowflow MAYBE
-                </h6>
+                            <h6 className='raleway projtext'>A world-map view of the predicted spread of confirmed cases and fatalities of the novel COVID-19 virus in 180+ countries using machine learning.</h6>
+
+<h6 className='raleway projtext'>• Built and trained multiple machine-learning models from scratch using Kaggle dataset & Python notebook to generate prediction data over the next 30 days</h6>
+<h6 className='raleway projtext'>• Enabled real-time visualization & prediction of the spread of the virus by deploying a Java backend service using serverless Azure Functions</h6>
+<h6 className='raleway projtext'>• Demonstrated the accuracy by displaying a graphical comparison of real vs. predicted data</h6>
+
+
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1" style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <a href='https://github.com/akimi-yano/coronavirus-prediction' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1" style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2" style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
+                                    <a href='https://akimi-yano.github.io/coronavirus-prediction/#/' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2" style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
@@ -58,23 +59,22 @@ const Projects = () => {
                 <li className='projscroll'>
                     <div id='project2' className='row col s12'>
                         <div className='row col s12'>
-                            <h3 className='tealfont raleway projtitle'>Face Labo</h3>
+                            <h3 className='tealfont raleway projtitle'>Face Labo - Interactive Computer Vision</h3>
                         </div>
                         <div className='projdiv row col m6 s12'>
 
-                            <h6 className='raleway projtext'>
-                            I built a machine learning web application that allows users to upload images and videos of faces to experience face recognition technology. It can detect face, shape, parts, blink, wink, sleepiness and show different png images depending on the findings.
-                </h6>
-                            <h6 className='raleway projtext'>
-                            Built with Python3, Django, Open CV, NumPy
-                </h6>
+<h6 className='raleway projtext'>A machine learning / computer vision web app that can count how many times a person blinks / winks or whether the person is sleepy from uploaded photos & videos.</h6>
+<h6 className='raleway projtext'>• Applied computer vision techniques using OpenCV and Numpy and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc.</h6>
+<h6 className='raleway projtext'>• Realized interactive experience on a Python Django web app through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output</h6>
+
+                            
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <a href='https://github.com/akimi-yano/ml_project' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>GitHub</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
+                                    <a href='http://3.101.36.127/' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Website</h6>
                                 </div>
                                 <div className='col s3'>
@@ -94,24 +94,22 @@ const Projects = () => {
                 <li className='projscroll'>
                     <div id='project3' className='row col s12'>
                         <div className='row col s12'>
-                            <h3 className='tealfont raleway projtitle'>ice candi</h3>
+                            <h3 className='tealfont raleway projtitle'>ice candi - Multilingual Video Chat</h3>
                         </div>
                         <div className='projdiv row col m6 s12'>
-                            <h6 className='raleway projtext'>
-                            I built a peer-to-peer multi-lingual video chat webapp. A user can connect with another peer and communicate in different languages using the voice translation feature.
-                </h6>
-                            <h6 className='raleway projtext'>
-                            Built with React, Material UI, Web RTC, Firebase/Firestore, Azure Cloud Functions, Azure Speech Translation API, Web Speech API, Leaflet, Mapbox, Illustrator and Photoshop
-                </h6>
+<h6 className='raleway projtext'>A multilingual peer-to-peer video chat application with live speech-to-text translation.</h6>
+<h6 className='raleway projtext'>• Delivered a seamless video chat experience by implementing WebRTC negotiation mechanism using the Firestore database and React web app</h6>
+<h6 className='raleway projtext'>• Empowered users to communicate through a humanized face-to-face / audial interaction and overcome language barriers using real-time speech-to-text translation between 8 languages powered by Azure Speech Translation API</h6>
+
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px'}}/></a>
+                                    <a href='https://github.com/akimi-yano/multilingual-video-chat' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='http://leforge.co' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
+                                    <a href='https://fir-rtc-bf5c0.firebaseapp.com/' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                                     </h6>
