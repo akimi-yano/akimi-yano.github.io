@@ -20,7 +20,7 @@ const Projects = () => {
                 <li className='projscroll'>
                     <div id='project1' className='row col s12'>
                         <div className='row col s12'>
-                            <h3 className='tealfont raleway projtitle'>Java/ML Project(仮)</h3>
+                            <h3 className='tealfont raleway projtitle'>Coronavirus Prediction Center</h3>
                         </div>
                         <div className='projdiv row col m6 s12'>
                             <h6 className='raleway projtext'>

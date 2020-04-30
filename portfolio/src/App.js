@@ -13,6 +13,11 @@ import Projects from './components/Projects.jsx'
 import LineThree from './components/Line_Three.jsx'
 import Contact from './components/Contact.jsx'
 
+import LineFour from './components/Line_Four.jsx'
+import Education from './components/Education.jsx'
+import LineFive from './components/Line_Five.jsx'
+import Experience from './components/Experience.jsx'
+
 import HomeIcon from '@material-ui/icons/Home';
 
 const onClickHandler=(e)=>{
@@ -27,7 +32,7 @@ function App() {
   return (
      <div id='main' className='app'>
         <div class="backtotop">
-            <button class="invisible-button" onClick={(e)=>onClickHandler()}><HomeIcon style={{fontSize:'70px'}}/></button>
+            <button class="invisible-button" onClick={(e)=>onClickHandler()}><HomeIcon style={{fontSize:'50px'}}/></button>
         </div>
 
           {/* <MobileNav/> */}
@@ -39,6 +44,10 @@ function App() {
           <LineTwo/>
           <Skills/>
           <LineThree/>
+          <Education/>
+          <LineFour/>
+          <Experience/>
+          <LineFive/>
           <Contact/>
       </div>
   );

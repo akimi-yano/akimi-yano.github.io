@@ -14,7 +14,25 @@ const Skills = () => {
 
                 </ul>
             </div>
-            <div className="techdiv row col s12 valign">
+            <div>
+                <ul>
+                    <li><h5><span className="skill-category">Languages: </span>Python, Java, JavaScript, HTML / CSS</h5></li>
+                    <li><h5><span className="skill-category">Machine Learning: </span>OpenCV, NumPy, Pandas, Scikit-learn, matplotlib / seaborn</h5></li>
+                    <li><h5><span className="skill-category">Web Servers & Frameworks: </span>Django, Flask, Spring Boot, Node.js, Express.js, Gunicorn, Nginx, Apache Tomcat, Apache HTTP Server</h5></li>
+                    <li><h5><span className="skill-category">Web Libraries: </span>WebRTC, Socket.IO</h5></li>
+                    <li><h5><span className="skill-category">Cloud Services: </span>AWS EC2, Google Cloud Functions, Firebase, Azure Cloud Functions</h5></li>
+                    <li><h5><span className="skill-category">Front End: </span>ReactJS, jQuery, Axios, Bootstrap, Mapbox, Materialize, Material-UI</h5></li>
+                    <li><h5><span className="skill-category">Databases: </span>MongoDB, MySQL, Cloud Firestore</h5></li>
+                    <li><h5><span className="skill-category">Software: </span>Git, Linux</h5></li>
+                    <li><h5><span className="skill-category">Concepts & Patterns: </span>RESTful/CRUD, API, AJAX</h5></li>
+                    <li><h5><span className="skill-category">Misc: </span>Photoshop / Illustrator</h5></li>
+                    <li></li>
+                </ul>
+            
+
+
+            </div>
+            {/* <div className="techdiv row col s12 valign">
                 <div id='techimgs' className='techrow row col s12 valign-wrapper'>
                     <div className='col s3 valign'>
                         <img className='techimg' src={process.env.PUBLIC_URL + '/tech2.png'} alt='' />
@@ -73,7 +91,7 @@ const Skills = () => {
                         <img className='techimg' src={process.env.PUBLIC_URL + '/tech7.png'} alt='' />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

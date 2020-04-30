@@ -4,6 +4,10 @@
   font-family: 'Chelsea Market', cursive;
   
 }
+.skill-category{
+  font-weight: bold;
+  color: blue;
+}
 #sidenav-overlay { z-index: 1; }
 .navbar-fixed { 
   z-index: 4;
@@ -182,23 +186,23 @@ body
 .invisible-button{
   background-color: transparent;
   outline:none;
-  margin-top:5px;
+  /* margin-top:5px; */
   border:none;
   border-radius:50%;
 }
 .backtotop {
   position:fixed;
   background-color:white;
-  width:80px;
-  height:80px;
+  width:150px;
+  height:150px;
   z-index: 5;
   margin: 25px 50px;
   background-color: white;
   box-shadow:2px 2px 5px black;
   border-radius:50%;
   text-align:center;
-  right:0px;
-  bottom:40px;
+  /* right:0px; */
+  /* bottom:40px; */
 }
 .invisible-button:focus{
   background-color:white;
@@ -483,18 +487,25 @@ li {
 }
 
 #parallax-one{
-  background-image: url('/bg1.jpg');
+  background-image: url('/bg2.jpg');
 }
 #parallax-two{
-  background-image: url('/bg2.jpg');
+  background-image: url('/bg1.jpg');
 }
 #parallax-three{
   background-image: url('/bg3.jpg');
 }
 
-#parallax-one, #parallax-two, #parallax-three{
+#parallax-four{
+  background-image: url('/bg3.jpg');
+}
+#parallax-five{
+  background-image: url('/bg3.jpg');
+}
+
+#parallax-one, #parallax-two, #parallax-three, #parallax-four, #parallax-five{
   
-  height: 140px;
+  height: 240px;
   /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -536,9 +547,234 @@ li {
 /* .abouttext{
   font-size: 1.2em;
 } */
-/* .abouttextscroll{
-  opacity:0;
+.typing1 h6{
+    /* font-family: monospace; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid red; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    overflow-wrap: break-word;
+
+    
+    animation: 
+      following1 3.5s steps(30, end),
+      blink-caret1 .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes following1 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret1 {
+    from, to { border-color: transparent }
+    50% { border-color: red }
+  }
+  .typing2 h6{
+    /* font-family: monospace; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid blue; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    overflow-wrap: break-word;
+    animation: 
+      following2 3.5s steps(30, end),
+      blink-caret2 .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes following2 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret2 {
+    from, to { border-color: transparent }
+    50% { border-color:blue }
+  }
+  .typing3 h6{
+    /* font-family: monospace; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid greenyellow; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    overflow-wrap: break-word;
+    animation: 
+    following3 3.5s steps(30, end),
+    blink-caret3 .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes following3{
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret3 {
+    from, to { border-color: transparent }
+    50% { border-color:greenyellow }
+  }
+  .typing4 h6{
+    /* font-family: monospace; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid purple; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    overflow-wrap: break-word;
+    animation: 
+    following4 3.5s steps(30, end),
+      blink-caret4 .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes following4 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret4 {
+    from, to { border-color: transparent }
+    50% { border-color: purple }
+  }
+  .typing5 h6{
+    /* font-family: monospace; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    overflow-wrap: break-word;
+    animation: 
+    following5 3.5s steps(30, end),
+      blink-caret5 .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes following5 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret5 {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  .typing6 h6{
+    /* font-family: monospace; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid palevioletred; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    overflow-wrap: break-word;
+    animation: 
+    following6 3.5s steps(30, end),
+      blink-caret6 .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  /* @keyframes following6 {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+  
+  /* The typewriter cursor effect */
+  /* @keyframes blink-caret6 {
+    from, to { border-color: transparent }
+    50% { border-color:palevioletred }
+  } */
+  /* .css-typing
+{    */
+  /* border-right: .15em solid orange; */
+    /* font-family: "Courier";
+    font-size: 14px;
+    width: 50em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type 5s steps(40, end);
 } */
+/* .css-typing{
+      width: 100px;
+      word-wrap: break-word;
+} */
+
+/* .css-typing:nth-child(2)
+{
+    white-space:nowrap;
+    overflow:hidden;    
+    opacity:0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type2 5s steps(40, end);
+    -webkit-animation-delay: 5s; 
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.css-typing:nth-child(3){
+    white-space:nowrap;
+    overflow:hidden;
+    opacity:0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type3 5s steps(40, end);
+    -webkit-animation-delay: 10s; 
+    animation-delay: 10s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+ @keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type2{
+0%{width: 0;}
+from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+}
+@-webkit-keyframes type2{
+0%{width: 0;}
+from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+}  
+@keyframes type3{
+  0%{width: 0;}
+  from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+
+} 
+@-webkit-keyframes type3{
+  0%{width: 0;}
+  from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+}   */
+
 /* .abtpicdiv{
   margin-bottom: 5%;
 } */
@@ -616,7 +852,9 @@ li {
 
 
 #about {
-  padding-top: 30px;
+  padding-top: 40px;
+  width:100%;
+ 
 }
 #project1 {
   padding-top: 40px;
@@ -637,5 +875,455 @@ li {
   padding-top: 40px;
 }
 #skills {
-  padding-top: 30px;
+  padding-top: 40px;
+}
+#education{
+  padding-top: 40px;
+}
+#experience{
+  padding-top: 40px;
+}
+
+.summary{
+  font-weight: bold;
+  width:600px;
+  vertical-align: top;
+  padding: 50px 0px 50px 100px;
+  display: inline-block;
+  
+}
+.summary h2{
+  font-size: 34px;
+  color: black;
+  /* font-family: 'Sigmar One', cursive; */
+  text-shadow: 1px 1px 2px white;
+}
+.summary h3{
+  font-size: 24px;
+  margin: 40px 0px;
+  color: black;
+  font-weight: normal;
+  line-height: 40px;
+  /* font-family: 'Sigmar One', cursive;
+  font-family: 'Work Sans', sans-serif; */
+}
+
+.rock_climbing{
+  color:lightgreen;
+  font-weight: bold;
+  font-size: 35px;
+  /* font-family: 'Chewy', cursive; */
+}
+.foreign_languages{
+  color: palevioletred;
+  font-weight: bold;
+  font-size: 35px;
+  /* font-family: 'Chewy', cursive; */
+}
+.climbing{
+  width: 400px;
+  height: 328px;
+  display: inline-block;
+  border: 5px dotted rgb(39, 98, 146);
+  margin: 40px 20px 40px 105px;
+  position:relative;
+  vertical-align: middle;
+}
+.climbing p{
+  /* font-family: 'Rock Salt', cursive; */
+  background-color:#ff4a4a;
+  color: white;
+}
+.climbing img{
+  width: 400px;
+  border-radius: 3px;
+}
+
+.languages{
+  width: 400px;
+  display: inline-block;
+  height: 300px;
+  border: 5px dotted rgb(39, 98, 146);
+  margin: 40px 20px 40px 105px;
+  vertical-align: middle;
+}
+.languages p{
+  /* font-family: 'Rock Salt', cursive; */
+  background-color:#ff4a4a;
+  color: white;
+}
+.languages img{
+  width: 400px;
+  border-radius: 3px;
+}
+/* .languages p{
+  color: black;
+} */
+.past_experience{
+  background-color: rgb(39, 98, 146);
+  display:flex;
+  vertical-align: middle;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fa-laptop{
+  color: white;
+  display: inline-block;
+  font-size:250px;
+  padding: 50px 100px 50px 193px;
+  vertical-align: middle;
+}
+.previous{
+  color: white;
+  font-weight: bold;
+  width:100%;
+  padding: 50px 100px;
+  display: inline-block;
+  vertical-align: middle;
+ 
+}
+.previous h2{
+  color: white;
+  font-weight: bold;
+  font-size: 34px;
+  /* font-family: 'Sigmar One', cursive; */
+  text-shadow: 1px 1px 2px black;
+}
+
+.previous h3{
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 40px 0px;
+  line-height: 40px;
+  /* font-family: 'Sigmar One', cursive; */
+  /* font-family: 'Work Sans', sans-serif; */
+}
+.previous span{
+  color: yellow;
+  font-style: italic;
+  /* font-family: 'Caveat', cursive; */
+  font-size: 30px;
+  
+}
+.project_experience{
+  background-color: white;
+}
+.past_project{
+  width: 600px;
+  padding: 50px 100px ;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.past_project h2{
+  color: black;
+  font-size: 34px;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: 1px 1px 2px white;
+}
+
+.past_project h3{
+  color: black;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 40px 0px;
+  line-height: 40px;
+  /* font-family: 'Sigmar One', cursive; */
+  /* font-family: 'Work Sans', sans-serif; */
+
+}
+.life_change{
+  color:darkgreen;
+  font-style: italic;
+  /* font-family: 'Caveat', cursive; */
+  font-size: 30px;
+
+}
+.my_first_project{
+  color: darkblue;
+  font-weight: bold;
+  font-size: 35px;
+  /* font-family: 'Chewy', cursive; */
+}
+.first_project{
+  width: 600px;
+  height: 60px;
+  display: inline-block;
+  padding: 50px 0px;
+
+
+}
+.first_project_pic{
+  width: 270px;
+  display: inline-block;
+  glyph-orientation-vertical: top;
+  border: 1px solid black;
+  margin-bottom: 46px;
+}
+
+.description {
+position: relative;
+background: rgb(39, 98, 146);
+  border-radius: .4em;
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  margin: 0px 30px;
+  padding: 10px 0px 10px 10px;
+  color: white;
+}
+
+.description:after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 0;
+height: 0;
+border: 49px solid transparent;
+border-top-color: rgb(39, 98, 146);
+border-bottom: 0;
+border-left: 0;
+margin-left: -24.5px;
+margin-bottom: -49px;
+}
+.now{
+  background-color: rgb(39, 98, 146);
+}
+.current{
+  color: white;
+}
+
+.bootcamp{
+
+  display: inline-block;
+  width: 600px;
+  padding: 50px 60px 50px 100px;
+  vertical-align: middle;
+
+}
+
+.bootcamp h2{
+  color:white;
+  font-weight: bold;
+  font-size: 34px;
+  /* font-family: 'Sigmar One', cursive; */
+  text-shadow: 1px 1px 2px black;
+}
+
+.bootcamp h3{
+  color:white;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 40px 0px;
+  line-height: 40px;
+  /* font-family: 'Sigmar One', cursive; */
+  /* font-family: 'Work Sans', sans-serif; */
+}
+
+.progress_matrix{
+  color: orangered;
+  font-weight: bold;
+  font-size: 35px;
+  /* font-family: 'Chewy', cursive; */
+
+}
+.progress{
+  width: 600px;
+  height: 510px;
+  background-color: rgb(39, 98, 146);
+  display: inline-block;
+  margin: 40px 0px;
+  vertical-align: middle;
+}
+.progress li{
+  text-align: center;
+  color: black;
+}
+.from_now_on{
+  background-color: white;
+  height: 708px;
+}
+.future{
+  color: black
+}
+.goal{
+  padding: 50px 100px;
+  width: 600px;
+}
+.goal h2{
+  color:black;
+  font-size: 34px;
+  /* font-family: 'Sigmar One', cursive; */
+  text-shadow: 1px 1px 2px white;
+}
+.goal h3{
+  color:black;
+  font-weight: normal;
+  margin: 40px 0px;
+  font-size: 24px;
+  line-height: 40px;
+  /* font-family: 'Sigmar One', cursive; */
+  /* font-family: 'Work Sans', sans-serif; */
+}
+.project_ex{
+  background-color: rgb(39, 98, 146);
+  height: 435px;
+}
+.portofolio {
+  display:flex;
+  justify-content: space-around;
+}
+.working_projects{
+  color: cyan;
+  font-weight: bold;
+  font-size: 35px;
+  /* font-family: 'Chewy', cursive; */
+}
+.project{
+  display: inline-block;
+}
+.project h4{
+  margin: 20px 0px;
+  text-align: center;
+  color:white;
+  font-size: 28px;
+  /* font-family: 'Orbitron', sans-serif; */
+ 
+}
+.wireframe{
+  width: 325px;
+  height: 300px;
+  font-weight: bold;
+  background-color: transparent;
+  border:5px solid white;
+  color: white;
+  text-align:center;
+}
+.fa-toolbox, .fa-hard-hat , .fa-truck-pickup {
+  font-size:250px;
+}
+
+.footer{
+  background-color: white;
+  height: 100px;
+  text-align: center;
+  margin-top:50px;
+}
+.footer p{
+  color: rgb(39, 98, 146);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 17px;
+  padding: 5px;
+  /* font-family: 'Passion One', cursive; */
+}
+.footer img{
+  width: 50px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+}
+
+.nav {
+  padding:10px 15px;
+  border:1px solid black;
+  color:black;
+  background-color: transparent;
+  border-radius:5px;
+  width:120px;
+}
+
+.nav:hover {
+  background-color:black;
+  color:white;
+  border:1px solid white;
+  transition:1s;
+}
+
+table{
+  margin:0 auto;
+}
+td {
+  border:5px solid black;
+  margin:0px 20px;
+  color:white;
+  font-size: 20px;
+  padding:13px;
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
+td:hover {
+  background-color:white;
+  color:black;
+  transition:1s;
+}
+.right-align-me{
+  text-align: right;
+}
+
+.fa-hard-hat{
+  color:yellow;
+}
+.fa-truck-pickup{
+  color: blue;
+}
+.fa-toolbox{
+  color:red;
+}
+.backtotop {
+  position:fixed;
+  background-color:white;
+  width:50px;
+  height:50px;
+  box-shadow:2px 2px 5px black;
+  border-radius:50%;
+  text-align:center;
+  right:0px;
+  bottom:40px;
+}
+.fa-home {
+  margin-top:5px;
+  font-size:35px;
+
+}
+.invisible-button{
+  background-color:transparent;
+  outline:none;
+  border:none;
+}
+.main{
+  background-color: white;
+}
+
+.carousel{
+  width:400px;
+  border:2px solid black;
+}
+.images{
+  display:inline-block;
+  width:400px;
+  height:300px;
+  padding:200px 25px 0px 100px;
+
+}
+
+.marker {
+  width:5px;
+  height:5px;
+  background-color:lightslategray;
+  border-radius:50%;
+}
+.markers {
+  display:flex;
+  margin-top:20px;
+  justify-content: space-around;
+}
+.marked {
+  background-color:white;
+
 }
