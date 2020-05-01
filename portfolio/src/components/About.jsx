@@ -94,7 +94,7 @@ const About = () => {
     },[])
    
     return (
-        <div id='about' className='section container row'>
+        <div id='about'>
             <div className='row container col s12'>
                 <h2 className="header raleway center-align">About Me</h2>
             </div>
@@ -125,20 +125,7 @@ const About = () => {
 
             </div>
           
-            {/* <div id='aboutpictures' className="row container abtdiv col m12 s12 center-block">
-                <div className="col m3 s6 abtpicdiv">
-                    <img className='about-picture materialboxed center-block' src='https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/profile.png' alt='profile' />
-                </div>
-                <div className="col m3 s6 abtpicdiv">
-                    <img className='about-picture materialboxed center-block' src='https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/dance.jpg' alt='dance' />
-                </div>
-                <div className="col m3 s6 abtpicdiv">
-                    <img className='about-picture materialboxed center-block' src='https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/code.png' alt='code' />
-                </div>
-                <div className="col m3 s6 abtpicdiv">
-                    <img className='about-picture materialboxed center-block' src='https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/controller.jpg' alt='controller' />
-                </div>
-            </div> */}
+      
             <div>
             <div class="main">
                 <div class="summary">
@@ -157,7 +144,21 @@ const About = () => {
                 </div>
             </div>
             <div class="past_experience">
-
+            <div className='row container col s12'>
+            </div>
+            
+            <div className="row container abtdiv col m12 s12">
+            <div style={{display: 'inline-block'}} class="previous">
+                <ul>
+                <li><h2>My career as a Software Engineer</h2></li>
+                <li><h3>As far as I can remember, I have always admired the potential for technology and have been interested in
+                learning more about it. After moving to Silicon Valley, I had the oppportunity to meet and speak with a
+                number of tech professionals, and <span>I got inspired by their ability to turn ideas into reality.</span> At the
+                same time, I started confirming the possibility of myself doing the same thing: creating things I could
+                only imagine.</h3></li>
+                </ul>
+            </div>
+            <div style={{display:'inline-block'}}>
             <div  class="images">
                 <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/0.jpg'} alt="" id="pic0" class="carousel"/>
                 <img style={{width: '40%', height: 'auto', marginLeft: "100px"}} src={process.env.PUBLIC_URL + '/images/1.jpg'}  alt="" id="pic1" class="carousel hidden"/>
@@ -178,16 +179,11 @@ const About = () => {
                         <div id="mark6" class="marker"></div>
                         <div id="mark7" class="marker"></div>
             </div>
-            
-            
-            <div class="previous">
-                <h2>My career as a Software Engineer</h2>
-                <h3>As far as I can remember, I have always admired the potential for technology and have been interested in
-                learning more about it. After moving to Silicon Valley, I had the oppportunity to meet and speak with a
-                number of tech professionals, and <span>I got inspired by their ability to turn ideas into reality.</span> At the
-                same time, I started confirming the possibility of myself doing the same thing: creating things I could
-                only imagine.</h3>
             </div>
+            
+            </div>
+            
+
             </div>
             </div>    
         <div class="project_experience">
@@ -209,8 +205,20 @@ const About = () => {
     <div class="now">
         <div class="current">
             <div class="bootcamp">  
-            <h2>My life these days</h2>
-            <h3>Hey, I am currently attending an intensive coding bootcamp at Coding Dojo. Here is my <span
+            <h2>My coding bootcamp training</h2>
+            After thorough reflections, I made a decision to join an immersive coding bootcamp at Coding Dojo.
+
+During 15 weeks of my bootcamp period, I intensively coded, searched, read, and coded more.
+
+Here is my progress matrix during bootcamp:
+# of hours coded:	Too many
+# of lines committed on Github:	Lost Count
+Average # of coffees consumed:	Over 5  Per Day
+# of Black Belt obtained: In All Domains !
+
+*Black Belt is the highest level of achievement in knowledge and skills at Coding Dojo
+
+            <h3>Here is my <span
                     class="progress_matrix">progress matrix</span>:</h3>
             </div>
             <div class="progress">
@@ -239,6 +247,7 @@ const About = () => {
                     </tbody>
                 </table>
             </div>
+            <p>My life these days (white)</p>
         </div>
     </div>
     

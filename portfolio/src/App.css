@@ -856,6 +856,10 @@ to{opacity:1;}
   width:100vw;
  
 }
+#about2{
+  background-color: rgb(39, 98, 146);
+  width: 100vw;
+}
 #project1 {
   padding-top: 40px;
 }
@@ -978,9 +982,9 @@ to{opacity:1;}
 .previous{
   color: white;
   font-weight: bold;
-  width:100vw;
+  /* width:100vw; */
   /* padding: 50px 100px; */
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
  
 }

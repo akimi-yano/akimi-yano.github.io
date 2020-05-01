@@ -6,6 +6,10 @@ import NavBar from './components/NavBar.jsx'
 // import MobileNav from './components/MobileNav.jsx'
 import Banner from './components/Banner.jsx'
 import About from './components/About.jsx'
+import About2 from './components/About2.jsx'
+import About3 from './components/About3.jsx'
+import About4 from './components/About4.jsx'
+import About5 from './components/About5.jsx'
 import LineOne from './components/Line_One.jsx'
 import Skills from './components/Skills.jsx'
 import LineTwo from './components/Line_Two.jsx'
@@ -18,7 +22,7 @@ import Education from './components/Education.jsx'
 import LineFive from './components/Line_Five.jsx'
 import Experience from './components/Experience.jsx'
 
-import HomeIcon from '@material-ui/icons/Home';
+import HomeIcon from '@material-ui/icons/Home'; 
 
 const onClickHandler=(e)=>{
   window.scrollTo({
@@ -39,6 +43,10 @@ function App() {
           <NavBar/>
           <Banner/>
           <About/>
+          <About2/>
+          <About3/>
+          <About4/>
+          <About5/>
           <LineOne/>
           <Projects/>
           <LineTwo/>
