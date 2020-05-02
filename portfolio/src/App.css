@@ -502,8 +502,11 @@ li {
 #parallax-five{
   background-image: url('/bg3.jpg');
 }
+#parallax-six{
+  background-image: url('/bg3.jpg');
+}
 
-#parallax-one, #parallax-two, #parallax-three, #parallax-four, #parallax-five{
+#parallax-one, #parallax-two, #parallax-three, #parallax-four, #parallax-five, #parallax-six{
   
   height: 240px;
   /* Create the parallax scrolling effect */

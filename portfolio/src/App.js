@@ -21,8 +21,10 @@ import LineFour from './components/Line_Four.jsx'
 import Education from './components/Education.jsx'
 import LineFive from './components/Line_Five.jsx'
 import Experience from './components/Experience.jsx'
-
+import Courses from  './components/Courses.jsx'
 import HomeIcon from '@material-ui/icons/Home'; 
+
+import LineSix from './components/Line_Six.jsx'
 
 const onClickHandler=(e)=>{
   window.scrollTo({
@@ -56,6 +58,8 @@ function App() {
           <LineFour/>
           <Experience/>
           <LineFive/>
+          <Courses/>
+          <LineSix/>
           <Contact/>
       </div>
   );
