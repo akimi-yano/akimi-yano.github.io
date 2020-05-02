@@ -40,8 +40,8 @@ const NavBar = () => {
                     {/* <a href="" className="titleName" style={{color:'black', margin: '0 20px'}}>Akimi Yano<span className="tealfont"></span></a> */}
                     
                     <ul style={{margin: '0 20px'}} className="right hide-on-med-and-down">
-                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont aboutbtn" href="#about"><EmojiNatureIcon style={{marginBottom:'-4px'}}/> About </a></li>
-                        <li style={{width: '15vw', textAlign:'center'}} className="projectOption"><a className="navlink blackfont projbtn dropdown-button"><EmojiEventsIcon style={{marginBottom:'-4px'}}/> Projects <ArrowDropDownIcon style={{marginBottom:'-4px'}}/></a>
+                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont aboutbtn" href="#about"><EmojiNatureIcon style={{marginBottom:'-4px'}}/>About</a></li>
+                        <li style={{width: '15vw', textAlign:'center'}} className="projectOption"><a className="navlink blackfont projbtn dropdown-button"><EmojiEventsIcon style={{marginBottom:'-4px'}}/>Projects<ArrowDropDownIcon style={{marginBottom:'-4px'}}/></a>
                         <ul id="dropdown1" className="dropdown-content">
                 <li><a id="project1btn" href="#project1" className="blackfont">1. Coronavirus Prediction</a></li>
                 <li><a id="project2btn" href="#project2" className="blackfont">2. Face Labo</a></li>
@@ -51,10 +51,11 @@ const NavBar = () => {
                 <li><a id="project4btn" href="#project6" className="blackfont">6. Climbing Data Analysis</a></li>
             </ul>
                         </li>
-                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont techbtn" href="#skills"><StarIcon style={{marginBottom:'-4px'}}/> Skills </a></li>
-                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont techbtn" href="#education"><FitnessCenterIcon style={{marginBottom:'-4px'}}/> Education </a></li>
-                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont techbtn" href="#experience"><WhatshotIcon style={{marginBottom:'-4px'}}/> Experience </a></li>
-                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont contactbtn" href="#contact"><ContactMailIcon style={{marginBottom:'-4px'}}/> Contact </a></li>
+                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont techbtn" href="#skills"><StarIcon style={{marginBottom:'-4px'}}/>Skills</a></li>
+                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont techbtn" href="#education"><FitnessCenterIcon style={{marginBottom:'-4px'}}/>Education</a></li>
+                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont techbtn" href="#experience"><WhatshotIcon style={{marginBottom:'-4px'}}/>Experience</a></li>
+                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont techbtn" href="#courses"><WhatshotIcon style={{marginBottom:'-4px'}}/>Courses</a></li>
+                        <li style={{width: '10vw', textAlign:'center'}} ><a className="navlink blackfont contactbtn" href="#contact"><ContactMailIcon style={{marginBottom:'-4px'}}/>Contact</a></li>
                     </ul>
                 </div>
             </nav>
