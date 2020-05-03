@@ -59,7 +59,7 @@ const Contact = () => {
 
                     <div id="imageicon" className="col s6 m3 l3">
                         <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
-                            <img style={{ height: '70px', color: 'black' }} src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
+                            <img style={{ height: '60px', color: 'black' }} src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
                             <h6>Medium</h6></a>
                     </div>
                 </div>
