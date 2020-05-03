@@ -10,57 +10,67 @@ import HttpIcon from '@material-ui/icons/Http';
 
 const Contact = () => {
     return (
-        <div id='contact' className='section row container'>
-            <div className='col s12 row'>
-                <h2 className='header raleway center-align'>Contact Me</h2>
-                <h6 style={{display: 'flex', justifyContent: 'space-around'}} className='raleway tealfont'>Please feel free to reach out to me:</h6>
+        <footer>
+            <div id='contact' className='container center-align'>
+                <div className='row'>
+                    <div className='col l12 m12 s12'>
+                        <h2>Contact Me</h2>
+                        <h6 className='pink-text text-accent-1'>Please feel free to reach out to me:</h6>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className="col s6 m3 l3">
+                        <a href='mailto:akimi.mimi.yano@gmail.com' target='_blank' rel='noopener noreferrer'>
+                            <EmailIcon style={{ fontSize: '80px', color: 'black' }} />
+                            <h6>Email</h6></a>
+                    </div>
+                    <div className="col s6 m3 l3">
+                        <a href='https://linkedin.com/in/akimi-yano' target='_blank' rel='noopener noreferrer'>
+                            <LinkedInIcon style={{ fontSize: '80px', color: 'black' }} />
+                            <h6>LinkedIn</h6></a>
+                    </div>
+                    <div className="col s6 m3 l3">
+                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                            <GitHubIcon style={{ fontSize: '70px', color: 'black' }} />
+                            <h6>GitHub</h6></a>
+                    </div>
+                    <div id="imageicon" className="col s6 m3 l3"><a href='https://github.com/akimi-yano' target='_blank' rel='noopener noreferrer'>
+                        <img style={{ height: '70px', color: 'black' }} src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
+                        <h6>AI Competition</h6></a>
+                    </div>
+                </div>
+                <div className="row ">
+                    <div className="col s6 m3 l3">
+                        <a href='mailto:akimi.mimi.yano@gmail.com' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                            <HttpIcon style={{ fontSize: '80px', color: 'black' }} />
+                            <h6>Animated Portfolio</h6></a>
+                    </div>
+                    <div className="col s6 m3 l3">
 
-            </div>
-            <div id='contactimgs' className='col s12 container row center-align' style={{margin:'auto'}}>
-                <div className='row col s12 center-align' >
-                    <div className="contactdiv col s3">
-                        <a href='mailto:akimi.mimi.yano@gmail.com' className='contactlink' target='_blank' rel='noopener noreferrer'><EmailIcon className="icon_size" style={{ fontSize: '80px', color:'black'}} />
-                            <h6 className='blue-grey-font contact-label center-align'>Email</h6></a>
+                        <a href='https://linkedin.com/in/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                            <HttpIcon style={{ fontSize: '80px', color: 'black' }} />
+                            <h6>Leetcode</h6></a>
                     </div>
-                    <div className="contactdiv col s3">
+                    <div className="col s6 m3 l3">
+                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                            <TwitterIcon style={{ fontSize: '70px', color: 'black' }} />
+                            <h6>Twitter</h6></a>
+                    </div>
 
-                        <a href='https://linkedin.com/in/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><LinkedInIcon className="icon_size" style={{ fontSize: '80px', color:'black'}} />
-                            <h6 className='blue-grey-font contact-label center-align'>LinkedIn</h6></a>
+                    <div id="imageicon" className="col s6 m3 l3">
+                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                            <img style={{ height: '70px', color: 'black' }} src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
+                            <h6>Medium</h6></a>
                     </div>
-                    <div className="contactdiv col s3">
-                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size" style={{ fontSize: '70px', color:'black'}} />
-                            <h6 className='blue-grey-font contact-label center-align'>GitHub</h6></a>
-                    </div>
-            
-                    <div id="imageicon" className="contactdiv col s3"><a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><img className='techimg' src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
-                            <h6 className='blue-grey-font contact-label center-align'>AI Competition</h6></a>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        © 2020 Akimi Yano
                     </div>
                 </div>
             </div>
-            <div id='contactimgs' className='col s12 container row center-align' style={{margin:'auto'}}>
-                <div className='row col s12 center-align' >
-                    <div className="contactdiv col s3">
-                        <a href='mailto:akimi.mimi.yano@gmail.com' className='contactlink' target='_blank' rel='noopener noreferrer'><HttpIcon className="icon_size" style={{ fontSize: '80px', color:'black'}} />
-                            <h6 className='blue-grey-font contact-label center-align'>Animated Portfolio</h6></a>
-                    </div>
-                    <div className="contactdiv col s3">
+        </footer>
 
-                        <a href='https://linkedin.com/in/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><HttpIcon className="icon_size" style={{ fontSize: '80px', color:'black'}} />
-                            <h6 className='blue-grey-font contact-label center-align'>Leetcode</h6></a>
-                    </div>
-                    <div className="contactdiv col s3">
-                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><TwitterIcon className="icon_size" style={{ fontSize: '70px', color:'black'}} />
-                            <h6 className='blue-grey-font contact-label center-align'>Twitter</h6></a>
-                    </div>
-            
-                    <div id="imageicon" className="contactdiv col s3"><a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'><img className='techimg' src={process.env.PUBLIC_URL + '/kaggle.png'} alt='' />
-                            <h6 className='blue-grey-font contact-label center-align'>Medium</h6></a>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
     )
 }
 
