@@ -1,27 +1,30 @@
 import React from 'react'
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Banner = () => {
     return (
-        <div id='banner' className='parallax-container'>
-            <div id='parallax-zero'  >
-            <div className="first_impression">
-                <div class="img-container">
-                    <img src="img_akimi.jpg" alt="profile_image" className="profile_img" />
-                    <div className="outerring">
-                        <StarBorderIcon className="ball" />
-                        <FavoriteBorderIcon className="ball2" />
+        <div>
+            <div id='banner' className='parallax-container center-align' style={{ height: 'auto' }}>
+                <div id='parallax-zero'  >
+                    <div className="row">
+                        <div className="col s12 m6">
+                            <div class="img-container">
+                                <img src="img_akimi.jpg" alt="profile_image" className="profile_img" />
+                                <div className="outerring">
+                                    <div className="ball"><FontAwesomeIcon icon="star" /></div>
+                                    <div className="ball2"><FontAwesomeIcon icon="heart" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col s12 m6 valign-wrapper banner-text">
+                            <div className="container">
+                                <h4 className="flow-text white-text">"I want to be able to create anything I can imagine."<br />『自分が思い描いたものを創れるようになりたい。』</h4>
+                                <h6 className="flow-text pink-text text-lighten-4">Software Development | AI | Data Science</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="follow_you">
-                    <h1 className="quote">"I want to be able to create anything I can imagine."<br/>『自分が思い描いたものを創れるようになりたい。』</h1>
-                    <h5 className='center-align raleway banner-hidden' style={{textAlign:"left", color: 'pink'}}>Software Development | AI | Data Science</h5>
- 
-                </div>
             </div>
-            </div>
-
         </div>
     )
 }

@@ -1,12 +1,5 @@
 import React, { useEffect } from 'react'
 import $ from 'jquery'
-import CheckBoxIcon from '@material-ui/icons/CheckBox';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
-import WhatshotIcon from '@material-ui/icons/Whatshot';
-import FlashOnIcon from '@material-ui/icons/FlashOn';
-import ChildCareIcon from '@material-ui/icons/ChildCare';
-import CodeIcon from '@material-ui/icons/Code';
 
 import About2 from './About2.jsx'
 import About3 from './About3.jsx'

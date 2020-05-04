@@ -1,7 +1,5 @@
 import React from 'react'
-import WebIcon from '@material-ui/icons/Web';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import YouTubeIcon from '@material-ui/icons/YouTube';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Projects = () => {
     return (
@@ -32,19 +30,19 @@ const Projects = () => {
 
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='https://github.com/akimi-yano/coronavirus-prediction' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1" style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <a href='https://github.com/akimi-yano/coronavirus-prediction' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='https://akimi-yano.github.io/coronavirus-prediction/#/' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2" style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
+                                    <a href='https://akimi-yano.github.io/coronavirus-prediction/#/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns'/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
                             </div>
@@ -70,15 +68,15 @@ const Projects = () => {
                             
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='https://github.com/akimi-yano/ml_project' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <a href='https://github.com/akimi-yano/ml_project' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>GitHub</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='http://3.101.36.127/' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
+                                    <a href='http://3.101.36.127/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns'/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Website</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
 
@@ -103,19 +101,19 @@ const Projects = () => {
 
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='https://github.com/akimi-yano/multilingual-video-chat' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px'}}/></a>
+                                    <a href='https://github.com/akimi-yano/multilingual-video-chat' target='_blank' rel='noopener noreferrer'> <FontAwesomeIcon icon={['fab', 'github']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='https://fir-rtc-bf5c0.firebaseapp.com/' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
+                                    <a href='https://fir-rtc-bf5c0.firebaseapp.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns'/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
                             </div>
@@ -142,15 +140,15 @@ const Projects = () => {
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'> <FontAwesomeIcon icon={['fab', 'github']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>GitHub</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns'/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Website</h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
 
@@ -182,19 +180,19 @@ const Projects = () => {
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1"  style={{ fontSize: '59px', color:'black', marginTop: '17px'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2"  style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns'/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
                             </div>
@@ -220,19 +218,19 @@ const Projects = () => {
                 </h6>
                             <div className='row'>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><GitHubIcon className="icon_size1" style={{ fontSize: '59px', color:'black', marginTop: '17px' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         GitHub
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><WebIcon className="icon_size2" style={{ fontSize: '70px', color:'black', marginTop: '11px' }}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns'/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>
                                         Website
                     </h6>
                                 </div>
                                 <div className='col s3'>
-                                    <a href='#' target='_blank' rel='noopener noreferrer'><YouTubeIcon className="icon_size3"  style={{ fontSize: '81px', color:'black', marginTop: '5px'}}/></a>
+                                    <a href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']}/></a>
                                     <h6 className='project-link-label blue-grey-font center-align'>Video</h6>
                                 </div>
                             </div>
