@@ -34,7 +34,7 @@ const MobileNav = () => {
                 <li><a href="#courses">Courses</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger hide-on-large-only" style={{ position: 'fixed', zIndex: 997, top: '18px' }}><i class="material-icons white-text">menu</i></a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger hide-on-large-only" style={{ position: 'fixed', zIndex: 997, top: '18px' }}><i class="material-icons black-text">menu</i></a>
         </div>
     )
 }

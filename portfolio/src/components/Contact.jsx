@@ -54,7 +54,7 @@ const Contact = () => {
 
                     <div className="col s6 m3 l3">
                         <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={['fab', 'medium']} size='4x' color='black'/>
+                        <FontAwesomeIcon icon={['fab', 'medium-m']} size='4x' color='black'/>
                             <h6 className="black-text">Medium</h6></a>
                     </div>
                 </div>

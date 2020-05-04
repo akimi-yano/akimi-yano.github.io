@@ -94,43 +94,22 @@ const About = () => {
     return (
         <div id='about' className="container">
             <div className='row col s12'>
-                <h2 className="header raleway center-align">About Me</h2>
+                <h2 className="center-align">About Me</h2>
+            </div>
+            <div className="row">
+                        <div className="col s12 m6">
+                            <p className="flow-text">Hello, my name is Akimi, and I am a Silicon Valley based Software Engineer. I love to focus and code.</p>
+                            <p className="flow-text">I am passionate about driving Computer Vision / Machine Learning project ideas into reality. In my spare time, I enjoy learning new foreign languages and rock climbing.</p>
+                        </div>
+                        <div className="col s12 m6 center-align">
+                            <p>Placeholder</p>
+                        </div>
+            </div>
+            <div className="row">
+                
             </div>
             <div style={{ display: 'inline-block' }}>
-                <div id='abouttxtdiv' className="row container abtdiv col m12 s12">
-                    <ul id='abouttextanimation'>
-                        <li >
-                            <h6>Hello, my name is Akimi, and I am a Silicon Valley based Software Engineer.</h6>
-                          
-                            <h6>I love to focus and code.</h6>
-                
-                            <h6>I am passionate about driving Computer Vision / Machine Learning project ideas into reality. (visually show CV projects and kaggle competition)</h6>
-                      
-                            <h6>In my spare time, I enjoy learning new foreign languages and rock climbing. (visually show climbing and language learning)</h6>
-                           
-                        </li>
-                    </ul>
-
-                </div>
-                     
-
                 <div>
-                    {/* <div class="main">
-                        <div class="summary">
-                            <h2>About me</h2>
-                            <h3>Hello, my name is Akimi, and I am a Software Engineer Silicon Valley, California. I love to code. In my spare time, I enjoy going <span
-                                class="rock_climbing">rock climbing</span> and traveling to learn new <span
-                                    class="foreign_languages">foreign languages</span>.</h3>
-                        </div>
-                        <div class="climbing">
-                            <p>Climbing in progress ...</p>
-                            <img src="climbing_graph.jpg" alt="climbing_graph" />
-                        </div>
-                        <div class="languages">
-                            <p>Language learning in progress ...</p>
-                            <img src="languages_map.png" alt="languages_map" />
-                        </div>
-                    </div> */}
                     <div class="past_experience">
                         <div className='row container col s12'>
                         </div>

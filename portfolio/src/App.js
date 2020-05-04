@@ -5,7 +5,11 @@ import 'materialize-css/dist/css/materialize.min.css';
 import NavBar from './components/NavBar.jsx'
 import MobileNav from './components/MobileNav.jsx'
 import Banner from './components/Banner.jsx'
-import About from './components/About.jsx'
+import About1 from './components/About1.jsx'
+import About2 from './components/About2.jsx'
+import About3 from './components/About3.jsx'
+import About4 from './components/About4.jsx'
+import About5 from './components/About5.jsx'
 import LineOne from './components/Line_One.jsx'
 import Skills from './components/Skills.jsx'
 import LineTwo from './components/Line_Two.jsx'
@@ -45,7 +49,11 @@ function App() {
           <NavBar/>
           <MobileNav/>
           <Banner/>
-          <About/>
+          <About1/>
+          <About2/>
+          <About3/>
+          <About4/>
+          <About5/>
           <LineOne/>
           <Projects/>
           <LineTwo/>

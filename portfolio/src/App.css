@@ -77,8 +77,39 @@
     width: 10px;
 }
 
-@media only screen and (min-width: 601px) {
-.banner-text {
-    height: 300px;
+
+/* customizing container to be full width */
+.full-container {
+    width: 100%;
+    max-width: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
 }
+
+.blue-container {
+    padding-top: 0.1rem;
+    background-color: rgb(39, 98, 146);
+}
+
+@media only screen and (min-width: 601px) {
+    .banner-text {
+        height: 300px;
+    }
+
+    .full-container {
+        width: 100%;
+        max-width: none;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .full-container {
+        width: 100%;
+        max-width: none;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
