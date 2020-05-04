@@ -6,10 +6,10 @@ const Courses = () => {
             <div className="row col s12 center-align">
             <ul>
                     <li>
-                        <h2 className='header raleway'>Courses</h2>
+                        <h2 className='center-align'>Courses</h2>
                     </li>
                     <li>
-                        <h6 className='raleway tealfont'>Some of the courses I have completed: </h6>
+                        <h6 className="flow-text">Some of the courses I have completed: </h6>
                     </li>
 
                 </ul>
