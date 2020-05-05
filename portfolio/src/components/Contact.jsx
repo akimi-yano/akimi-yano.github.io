@@ -29,7 +29,7 @@ const Contact = () => {
                         <FontAwesomeIcon icon={['fab', 'github']} size='4x' color='black'/>
                             <h6 className="black-text">GitHub</h6></a>
                     </div>
-                    <div className="col s6 m3 l3"><a href='https://github.com/akimi-yano' target='_blank' rel='noopener noreferrer'>
+                    <div className="col s6 m3 l3"><a href='https://www.kaggle.com/akimiyano' target='_blank' rel='noopener noreferrer'>
                     <FontAwesomeIcon icon={['fab', 'kaggle']} size='4x' color='black'/>
                         <h6 className="black-text">AI Competition</h6></a>
                     </div>
@@ -42,18 +42,18 @@ const Contact = () => {
                     </div>
                     <div className="col s6 m3 l3">
 
-                        <a href='https://linkedin.com/in/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://leetcode.com/codingrobot2020/' className='contactlink' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon='laptop-code' size='4x' color='black'/>
                             <h6 className="black-text">Leetcode</h6></a>
                     </div>
                     <div className="col s6 m3 l3">
-                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://twitter.com/akimiyanoai' className='contactlink' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={['fab', 'twitter']} size='4x' color='black'/>
                             <h6 className="black-text">Twitter</h6></a>
                     </div>
 
                     <div className="col s6 m3 l3">
-                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.medium.com/@akimi.mimi.yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={['fab', 'medium-m']} size='4x' color='black'/>
                             <h6 className="black-text">Medium</h6></a>
                     </div>
