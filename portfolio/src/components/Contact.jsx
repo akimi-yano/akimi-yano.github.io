@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Contact = () => {
     return (
         <footer>
-            <div id='contact' className='container center-align'>
+            <div id='contact' className='full-container scrollspy center-align'>
                 <div className='row'>
                     <div className='col l12 m12 s12'>
                         <h2>Contact Me</h2>

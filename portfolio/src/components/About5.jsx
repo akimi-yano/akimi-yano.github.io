@@ -3,11 +3,9 @@ import React from 'react'
 const About5 = () => {
     return (
         <div className="full-container">
-    <div className='row col s12'>
-        <h3 className="center-align">My life these days</h3>
-    </div>
     <div className="row">
                 <div className="col s12 m6">
+        <h4>My life these days</h4>
                     <p className="flow-text">
                     I have been continuously coding and learning.
 Here are the things I have been working on lately.

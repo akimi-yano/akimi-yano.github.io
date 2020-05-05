@@ -2,7 +2,7 @@ import React from 'react'
 
 const Courses = () => {
     return (
-        <div id="courses" className="section row container">
+        <div id="courses" className="full-container scrollspy">
             <div className="row col s12 center-align">
             <ul>
                     <li>

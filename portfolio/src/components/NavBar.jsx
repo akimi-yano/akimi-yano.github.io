@@ -17,7 +17,7 @@ const NavBar = () => {
                     <ul className="right hide-on-med-and-down">
                         <li><a className="black-text" href="#about"><FontAwesomeIcon icon="seedling"/>About</a></li>
                         <li>
-                            <a style={{outline: 'none'}} class='dropdown-trigger black-text' href='#projecttitle' data-target='dropdown1'>
+                            <a style={{outline: 'none'}} class='dropdown-trigger black-text' href='#projects-title' data-target='dropdown1'>
                                 <FontAwesomeIcon icon="trophy"/>
                                 Projects
                                 <FontAwesomeIcon icon="caret-down"/>

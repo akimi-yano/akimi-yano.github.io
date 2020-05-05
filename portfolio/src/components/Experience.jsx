@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
     return (
-            <div id="experience" className="section row container">
+            <div id="experience" className="full-ontainer scrollspy">
             <div className="row col s12 center-align">
                 <ul>
                     <li>

@@ -79,7 +79,7 @@
 
 
 .projgif {
-    width: 10px;
+    width: 100px;
 }
 
 
@@ -98,13 +98,23 @@
     background-color: rgb(39, 98, 146);
 }
 
+.full-container-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -150px;
+    color: white;
+}
+
 .parallax img {
+    /* filter: brightness(0%); */
     width: 100%;
 }
 
 .parallax-container {
     min-height: 150px;
 }
+
 
 @media only screen and (min-width: 601px) {
     .banner-text {
@@ -117,6 +127,14 @@
         padding-left: 7.5%;
         padding-right: 7.5%;
     }
+
+.full-container-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -180px;
+    color: white;
+}
     
     .parallax-container {
         min-height: 200px;
@@ -131,7 +149,27 @@
         padding-right: 15%;
     }
 
+.full-container-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -230px;
+    color: white;
+}
+
     .parallax-container {
         min-height: 300px;
     }
+}
+
+.proj-gif {
+    padding-top: 1vh;
+    height: auto;
+    width: 100%;
+}
+
+.pokemon-text {
+    font-weight: bold;
+    color: rgb(255, 204, 1);
+    -webkit-text-stroke: 1.5px rgb(38, 117, 187);
 }
