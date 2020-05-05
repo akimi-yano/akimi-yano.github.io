@@ -1,11 +1,6 @@
-import React, { useEffect } from 'react'
-import M from 'materialize-css';
+import React from 'react'
 
 const MobileNav = () => {
-    useEffect(() => {
-        let elems = document.querySelectorAll('.sidenav');
-        M.Sidenav.init(elems);
-    }, [])
     return (
         <div className="container">
             <ul id="nav-mobile" className="sidenav">

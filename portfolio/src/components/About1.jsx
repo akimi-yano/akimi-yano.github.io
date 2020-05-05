@@ -2,7 +2,7 @@ import React from 'react'
 
 const About1 = () => {
     return (
-    <div id='about' className="full-container">
+    <div id='about' className="full-container scrollspy">
     <div className='row col s12'>
         <h3 className="center-align">About Me</h3>
     </div>

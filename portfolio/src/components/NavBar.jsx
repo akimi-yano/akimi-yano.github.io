@@ -1,14 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import M from 'materialize-css';
-
 const NavBar = () => {
-    useEffect(() => {
-        let elems = document.querySelectorAll('.dropdown-trigger');
-        M.Dropdown.init(elems, {hover: true, constrainWidth: false, coverTrigger: false});
-    }, [])
-
     return (
         <div className="navbar-fixed">
             <ul id="dropdown1" className="dropdown-content">

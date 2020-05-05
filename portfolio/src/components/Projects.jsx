@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Projects = () => {
     return (
-        <div id='portofolio' className='section row container'>
+        <div id='portofolio' className='container scrollspy'>
             <div className='row col s12 center-align'>
                 <h2 id='projecttitle' className='center-align'>Projects</h2>
                 <ul id='projtitleanimation'>
