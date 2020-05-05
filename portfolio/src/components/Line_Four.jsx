@@ -1,10 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+import M from 'materialize-css';
 
 const Line_Four = () => {
+  useEffect(() => {
+      let elems = document.querySelectorAll('.parallax');
+      M.Parallax.init(elems);
+  }, [])
+
     return (
-        <div id='parallax-four' className="parallax-container">
-      
+      <div className="parallax-container" style={{height: "auto"}}>
+      <div className='parallax'><img src={process.env.PUBLIC_URL + '/bg3.jpg'} alt='lineone'/>
       </div>
+  </div>
     )
 }
 
