@@ -1,8 +1,12 @@
 *{
     padding:0;
     margin:0;
-    /* font-family: 'Chelsea Market', cursive; */
+    font-family: 'Chelsea Market', cursive;
 }
+nav ul li:hover {
+    background-color: rgb(39, 98, 146);
+}
+
 .outerring {
     background-color: transparent;
     border:3px dotted white;

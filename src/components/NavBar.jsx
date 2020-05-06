@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const NavBar = () => {
     return (
@@ -13,8 +14,8 @@ const NavBar = () => {
             </ul>
             <nav>
                 <div className="nav-wrapper white" >
-                    <a href="#" className="brand-logo black-text" style={{marginLeft: "1vw"}}>Akimi Yano</a>
-                    <ul className="right hide-on-med-and-down">
+                    <a href="#" className="brand-logo black-text" style={{marginLeft: "1vw"}}><FontAwesomeIcon icon="home"/>Akimi Yano</a>
+                    <ul className="right hide-on-med-and-down ">
                         <li><a className="black-text" href="#about"><FontAwesomeIcon icon="seedling"/>About</a></li>
                         <li>
                             <a style={{outline: 'none'}} class='dropdown-trigger black-text' href='#projects-title' data-target='dropdown1'>
@@ -26,7 +27,7 @@ const NavBar = () => {
                         <li><a className="black-text" href="#skills"><FontAwesomeIcon icon="star"/>Skills</a></li>
                         <li><a className="black-text" href="#education"><FontAwesomeIcon icon="graduation-cap"/>Education</a></li>
                         <li><a className="black-text" href="#experience"><FontAwesomeIcon icon="fire-alt"/>Experience</a></li>
-                        <li><a className="black-text" href="#courses"><FontAwesomeIcon icon="tasks"/>Courses</a></li>
+                        <li><a className="black-text" href="#courses"><FontAwesomeIcon icon="check-square"/>Courses</a></li>
                         <li><a className="black-text" href="#contact"><FontAwesomeIcon icon="paper-plane"/>Contact</a></li>
                     </ul>
                 </div>

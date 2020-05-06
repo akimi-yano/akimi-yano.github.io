@@ -22,7 +22,7 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://akimi-yano.github.io/coronavirus-prediction/#/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://akimi-yano.github.io/coronavirus-prediction/#/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
@@ -54,7 +54,7 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='http://54.183.232.224/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='http://54.183.232.224/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
@@ -86,7 +86,7 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://fir-rtc-bf5c0.firebaseapp.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://fir-rtc-bf5c0.firebaseapp.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
@@ -117,7 +117,7 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://akimi-yano.github.io/pokemon_guess.html' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://akimi-yano.github.io/pokemon_guess.html' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
@@ -148,7 +148,7 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Report" href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='columns' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Report" href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Report</h6>
                             </div>
                             <div className='col s4'>

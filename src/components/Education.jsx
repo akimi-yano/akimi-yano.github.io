@@ -5,7 +5,7 @@ const Education = () => {
         <div>
             <div id="education" className='full-container-title scrollspy'>
                 <h2>Education</h2>
-                <p className="flow-text center-align">Completed courses, certificates, degrees</p>
+                <p className="flow-text center-align">Completed coding bootcamp, 2 masters degrees and bachelors abroad</p>
             </div>
             <div className="full-container">
                 <div className="row">

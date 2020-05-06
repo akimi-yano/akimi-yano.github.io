@@ -77,17 +77,26 @@ const Skills = () => {
                         <h5>Concepts & Patterns</h5>
                     </div>
                     <div className="col s7">
-                        <h6>RESTful/CRUD, API Design, AJAX</h6>
+                        <h6>RESTful / CRUD, API Design, AJAX</h6>
                     </div>
                 </div>
                 <div style={{marginBottom: 0}} className="row valign-wrapper">
                     <div className="col s5 right-align">
-                        <h5>Misc.</h5>
+                        <h5>Designing</h5>
                     </div>
                     <div className="col s7">
                         <h6>Photoshop, Illustrator</h6>
                     </div>
                 </div>
+                <div style={{marginBottom: 0}} className="row valign-wrapper">
+                    <div className="col s5 right-align">
+                        <h5>Spoken Languages</h5>
+                    </div>
+                    <div className="col s7">
+                        <h6>English, Spanish, Chinese, Japanese, French, Portuguese</h6>
+                    </div>
+                </div>
+               
             </div>
         </div>
     )
