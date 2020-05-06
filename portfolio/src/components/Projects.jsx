@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div>
             <div id="projects-title" className='full-container-title scrollspy'>
-                <h3>Projects</h3>
+                <h2>Projects</h2>
                 <p className="flow-text center-align">Here are some of the projects I have built.</p>
             </div>
             <div id='portfolio' className='full-container'>

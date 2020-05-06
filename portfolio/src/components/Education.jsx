@@ -2,42 +2,48 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <div id="education" className="full-container scrollspy">
-            <div className="row col s12 center-align">
-                <ul>
-                    <li>
-                        <h2 className='center-align'>Education</h2>
-                    </li>
-                    <li>
-                        <h6 className='center-align'>Completed courses, certificates, degrees </h6>
-                    </li>
-
-                </ul>
+        <div>
+            <div id="education" className='full-container-title scrollspy'>
+                <h2>Education</h2>
+                <p className="flow-text center-align">Completed courses, certificates, degrees</p>
             </div>
-            <div>
-                <ul style={{borderBottom: '3px dotted black'}}>
-                    <li><h4 className="flow-text">Coding Dojo Bootcamp | Triple Black Belt</h4></li>                                                                                                                                  
-                    <li><h5 className="flow-text">San Jose, CA | 01/2020 - 05/2020</h5></li>
-                    <li><h5 className="flow-text">• Achieved Black Belt status, the highest level of knowledge achievement, on all 3 curriculums</h5></li>
-                    <li><h5 className="flow-text">• Built, tested and deployed 3 full stack projects in Python Django, Java Spring Boot and JavaScript MERN</h5></li>
-                    <li><h5 className="flow-text">• Consistently executed beyond the curriculum by integrating self-taught technologies that applied machine learning, computer vision, and speech translation</h5></li>
-                </ul>
+            <div className="full-container">
+                <div className="row">
+                    <div className="col s12 m3 center-align">
+                        <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/dojo.png'}></img>
+                    </div>
+                    <div className="col s12 m9">
+                        <h5>Coding Dojo Bootcamp</h5>
+                        <h6>Triple Black Belt</h6>
+                        <h6>San Jose, CA | 01/2020 - 05/2020</h6>
+                        <li>Achieved Black Belt status, the highest level of knowledge achievement, on all 3 curriculums</li>
+                        <li>Built, tested and deployed 3 full stack projects in Python Django, Java Spring Boot and JavaScript MERN</li>
+                        <li>Consistently executed beyond the curriculum by integrating self-taught technologies that applied machine learning, computer vision, and speech translation</li>
+                    </div>
+                </div>
 
-                <ul style={{borderBottom: '3px dotted black'}}>
-                    <li><h4 className="flow-text">Middlebury Institute of International Studies at Monterey</h4></li>                                                                                                                                                                                                                      
-                    <li><h4 className="flow-text">Master of Public Administration</h4></li>  
-                    <li><h4 className="flow-text">Master in International Trade and Economics</h4></li>  
-                    <li><h5 className="flow-text">Monterey, CA | 08/2015 - 05/2018</h5></li>
-                </ul>
+                <div className="row">
+                    <div className="col s12 m3 center-align">
+                        <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/miis.png'}></img>
+                    </div>
+                    <div className="col s12 m9">
+                        <h5>Middlebury Institute of International Studies at Monterey</h5>
+                        <h6>Master of Public Administration, Master in International Trade and Economics</h6>
+                        <h6>Monterey, CA | 08/2015 - 05/2018</h6>
+                    </div>
+                </div>
 
-                <ul style={{borderBottom: '3px dotted black'}}>
-                    <li><h4 className="flow-text">Ritsumeikan University</h4></li>                                                                                                                                                                                                                      
-                    <li><h4 className="flow-text">Bachelors in International Relations</h4></li>  
-                    <li><h5 className="flow-text">Kyoto, Japan | 04/2010 - 09/2014</h5></li>
-                </ul>
-               
+                <div className="row">
+                    <div className="col s12 m3 center-align">
+                        <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/ritsumeikan.png'}></img>
+                    </div>
+                    <div className="col s12 m9">
+                        <h5>Ritsumeikan University</h5>
+                        <h6>Bachelors in International Relations</h6>
+                        <h6>Kyoto, Japan | 04/2010 - 09/2014</h6>
+                    </div>
+                </div>
             </div>
-
         </div>
     )
 }
