@@ -9,7 +9,7 @@ const About3 = () => {
                     <p className="flow-text">
                     Eventually, I started taking coding classes online and in person and made my <span
                     class="green-text">first project</span> using Python. It was a data analysis project I
-                completed by pulling data from a rock climbing training system. <span class="yellow-text">It was a life changing experience.</span> I
+                completed by pulling data from a rock climbing training system. <span class="pink-text">It was a life changing experience.</span> I
                 decided to become a Software Engineer and make more of my dream ideas come true.
                         </p>
                 </div>

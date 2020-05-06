@@ -19,7 +19,7 @@ const Banner = () => {
                         <div className="col s12 m6 valign-wrapper banner-text">
                             <div className="container">
                                 <h4 className="flow-text white-text">"I want to be able to create anything I can imagine."<br />『自分が思い描いたものを創れるようになりたい。』</h4>
-                                <h6 className="flow-text pink-text text-lighten-4">Software Development | AI | Data Science</h6>
+                                <h6 className="flow-text pink-text text-lighten-4">Software Engineer | Computer Vision | Machine Learning | Data Science</h6>
                             </div>
                         </div>
                     </div>

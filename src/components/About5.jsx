@@ -8,19 +8,15 @@ const About5 = () => {
         <h4>My life these days</h4>
                     <p className="flow-text">
                     I have been continuously coding and learning.
-Here are the things I have been working on lately.
-
--Computer Vision / Machine Learning IoT project
--Algorithm Practices 
--Machine Learning / Deep Learning courses
--Kaggle competition 
-
-I would like to learn more and more !!!
+Here are the things I have been working on lately. I would like to learn more and more !
 
                     </p>
                 </div>
                 <div className="col s12 m6 center-align">
-                    <p>Placeholder</p>
+                    <p>-Computer Vision / Machine Learning IoT project <br/>
+-Algorithm Practices  <br/>
+-Machine Learning / Deep Learning courses <br/>
+-Kaggle competition </p>
                 </div>
     </div>
     </div>
