@@ -15,47 +15,46 @@ const Contact = () => {
                 </div>
                 <div className='row '>
                     <div className="col s6 m3 l3">
-                        <a href='mailto:akimi.mimi.yano@gmail.com' target='_blank' rel='noopener noreferrer'>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="Email" href='mailto:akimi.mimi.yano@gmail.com' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon='envelope' size='4x' color='black'/>
-                            <h6 className="black-text">Email</h6></a>
+                            <h6 className="black-text hide-on-large-only">Email</h6></a>
                     </div>
                     <div className="col s6 m3 l3">
-                        <a href='https://linkedin.com/in/akimi-yano' target='_blank' rel='noopener noreferrer'>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="LinkedIn" href='https://linkedin.com/in/akimi-yano' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={['fab', 'linkedin']} size='4x' color='black'/>
-                            <h6 className="black-text">LinkedIn</h6></a>
+                            <h6 className="black-text hide-on-large-only">LinkedIn</h6></a>
                     </div>
                     <div className="col s6 m3 l3">
-                        <a href='https://github.com/akimi-yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={['fab', 'github']} size='4x' color='black'/>
-                            <h6 className="black-text">GitHub</h6></a>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="Resume" href='https://drive.google.com/file/d/13P6UVZC3NVJd-CGtOQqa5sb2qqZmUVls/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon icon='laptop-code' size='4x' color='black'/>
+                            <h6 className="black-text hide-on-large-only">Resume</h6></a>
                     </div>
-                    <div className="col s6 m3 l3"><a href='https://www.kaggle.com/akimiyano' target='_blank' rel='noopener noreferrer'>
-                    <FontAwesomeIcon icon={['fab', 'kaggle']} size='4x' color='black'/>
-                        <h6 className="black-text">AI Competition</h6></a>
+                    <div className="col s6 m3 l3">
+                        <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano' target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon icon={['fab', 'github']} size='4x' color='black'/>
+                            <h6 className="black-text hide-on-large-only">GitHub</h6></a>
                     </div>
                 </div>
-                <div className="row ">
+                <div className="row">
                     <div className="col s6 m3 l3">
-                        <a href='mailto:akimi.mimi.yano@gmail.com' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="Animated Portfolio" href='mailto:akimi.mimi.yano@gmail.com' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon="gamepad" size='4x' color='black'/>
-                            <h6 className="black-text">Animated Portfolio</h6></a>
+                            <h6 className="black-text hide-on-large-only">Animated Portfolio</h6></a>
                     </div>
                     <div className="col s6 m3 l3">
-
-                        <a href='https://leetcode.com/codingrobot2020/' className='contactlink' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon='laptop-code' size='4x' color='black'/>
-                            <h6 className="black-text">Leetcode</h6></a>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="AI Competition" href='https://www.kaggle.com/akimiyano' target='_blank' rel='noopener noreferrer'>
+                    <FontAwesomeIcon icon={['fab', 'kaggle']} size='4x' color='black'/>
+                        <h6 className="black-text hide-on-large-only">AI Competition</h6></a>
                     </div>
                     <div className="col s6 m3 l3">
-                        <a href='https://twitter.com/akimiyanoai' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="Twitter" href='https://twitter.com/akimiyanoai' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={['fab', 'twitter']} size='4x' color='black'/>
-                            <h6 className="black-text">Twitter</h6></a>
+                            <h6 className="black-text hide-on-large-only">Twitter</h6></a>
                     </div>
-
                     <div className="col s6 m3 l3">
-                        <a href='https://www.medium.com/@akimi.mimi.yano' className='contactlink' target='_blank' rel='noopener noreferrer'>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="Medium" href='https://www.medium.com/@akimi.mimi.yano' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={['fab', 'medium-m']} size='4x' color='black'/>
-                            <h6 className="black-text">Medium</h6></a>
+                            <h6 className="black-text hide-on-large-only">Medium</h6></a>
                     </div>
                 </div>
                 <div class="row">
