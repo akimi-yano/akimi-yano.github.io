@@ -13,7 +13,7 @@ Here are the things I have been working on lately. I would like to learn more an
                     </p>
                 </div>
                 <div className="col s12 m6 center-align">
-                    <p>-Computer Vision / Machine Learning IoT project <br/>
+<p>-Computer Vision / Machine Learning IoT project <br/>
 -Algorithm Practices  <br/>
 -Machine Learning / Deep Learning courses <br/>
 -Kaggle competition </p>

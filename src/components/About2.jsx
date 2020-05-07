@@ -15,7 +15,9 @@ const About2 = () => {
                         </p>
                 </div>
                 <div className="col s12 m6 pull-m6 about-left">
-                    <p className="white-text about-left center-align">Placeholder</p>
+                    <p className="white-text about-left center-align">
+                        
+                    </p>
                 </div>
             </div>
         </div>

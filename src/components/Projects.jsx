@@ -148,12 +148,12 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Report" href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Report" href='https://drive.google.com/open?id=1npccW930XvvozNk889DIkrJqdSbG1_-4' target='_blank' rel='noopener noreferrer'>
+                                    <FontAwesomeIcon icon='file-pdf' size='4x' color='black' />
+                                </a>
                                 <h6 className="hide-on-large-only">Report</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/akimi-yano.github.io/blob/master/pokemon_guess.html' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a>
-                                <h6 className="hide-on-large-only">GitHub</h6>
                             </div>
                             <div className='col s4'></div>
                         </div>

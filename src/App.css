@@ -10,7 +10,7 @@ nav ul li:hover {
     color: black;
 }
 .hover-ver:hover{
-    color: white;   
+    color: white;
 }
 
 .outerring {
@@ -183,3 +183,33 @@ nav ul li:hover {
     color: rgb(255, 204, 1);
     -webkit-text-stroke: 1.5px rgb(38, 117, 187);
 }
+
+#text0.highlight {
+    color: dodgerblue;
+}
+
+#text1.highlight {
+    color: hotpink;
+}
+#text2.highlight {
+    color: blue;
+}
+#text3.highlight {
+    color: red;
+}
+
+
+.marker {
+    width:10px;
+    height:10px;
+    background-color: lightgray;
+    border-radius:50%;
+  }
+  .markers {
+    display:flex;
+    margin-top:20px;
+    justify-content: space-around;
+  }
+  .marked {
+    background-color:indigo;
+  }

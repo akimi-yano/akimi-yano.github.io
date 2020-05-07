@@ -13,8 +13,8 @@ const About3 = () => {
                 decided to become a Software Engineer and make more of my dream ideas come true.
                         </p>
                 </div>
-                <div className="col s12 m6">
-                <img style={{width: "200px"}} class="first_project_pic" src="my_first_project.png" alt="my_first_project_img" />
+                <div className="col s12 m6 center-align">
+                <a href="https://drive.google.com/open?id=1npccW930XvvozNk889DIkrJqdSbG1_-4" target="_blank"><img style={{width: "200px"}} class="first_project_pic hoverable" src="my_first_project.png" alt="my_first_project_img" /></a>
                 <p class="description">Used Python to find out which climbing problems have the highest possibility of being
                     completed for each difficulty level in climbing training system called "MoonBoard".</p>
                 </div>

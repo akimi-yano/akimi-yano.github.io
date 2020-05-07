@@ -14,7 +14,10 @@ const NavBar = () => {
             </ul>
             <nav>
                 <div className="nav-wrapper white" >
-                    <a href="#" className="brand-logo black-text" style={{marginLeft: "1vw"}}><FontAwesomeIcon icon="home"/>Akimi Yano</a>
+                    <a href="#" className="brand-logo black-text" style={{marginLeft: "1vw"}}>
+                        <span class="hide-on-small-only"><FontAwesomeIcon icon="home"/></span>
+                        <h5 style={{display: "inline-block"}}>Akimi Yano</h5>
+                    </a>
                     <ul className="right hide-on-med-and-down ">
                         <li><a className="hover-ver" href="#about"><FontAwesomeIcon icon="seedling"/>About</a></li>
                         <li>
