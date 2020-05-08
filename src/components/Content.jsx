@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react'
 import M from 'materialize-css';
 
+// import Test from './Test.jsx'
+
 import NavBar from './NavBar.jsx'
 import MobileNav from './MobileNav.jsx'
 import Banner from './Banner.jsx'
@@ -64,6 +66,7 @@ const Body = () => {
         <About3/>
         <About4/>
         <About5/>
+        {/* <Test/> */}
         <LineOne/>
         <Projects/>
         <LineTwo/>

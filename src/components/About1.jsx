@@ -31,7 +31,7 @@ const About1 = () => {
                 <div className="col s12 m6">
                     <h3 className="center-align">About Me</h3>
                     <p className="flow-text">Software Engineer based in Silicon Valley. I love to focus and code.</p>
-                    <p className="flow-text">I am passionate about driving <span className="highlight" id="text0">Computer Vision</span> / <span id="text1">Machine Learning</span> project ideas into reality. In my spare time, I enjoy learning <span id="text2">foreign languages</span> and <span id="text3">rock climbing</span>.</p>
+                    <p className="flow-text">I am passionate about driving <span className="highlight" id="text0">Computer Vision</span> / <span id="text1">Machine Learning</span> project ideas into reality. In my spare time, I enjoy <span id="text2">learning foreign languages</span> and <span id="text3">rock climbing</span>.</p>
                 </div>
                 <div style={{paddingTop: "50px"}} className="col s12 m6 center-align">
                         <img style={{maxHeight: '300px', width: "auto", borderRadius: "2%", border: "5px solid black"}} src={process.env.PUBLIC_URL + '/cvcarousel.jpeg'} alt="" id="pic0" class="carousel" />
