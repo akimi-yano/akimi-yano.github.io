@@ -159,7 +159,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img style={{height: "300px", width: "auto"}}  className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/my_first_project.png'} alt='Project GIF' />
+                        <img style={{height: "300px", width: "auto", border: "1px solid gray"}} className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/my_first_project.png'} alt='Project GIF' />
                     </div>
                 </div>
 

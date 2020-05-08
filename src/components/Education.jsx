@@ -28,7 +28,8 @@ const Education = () => {
                     </div>
                     <div className="col s12 m9">
                         <h5>Middlebury Institute of International Studies at Monterey</h5>
-                        <h6>Master of Public Administration, Master in International Trade and Economics</h6>
+                        <h6>Master of Public Administration (MPA)</h6> 
+                        <h6>Master in International Trade and Economics</h6>
                         <h6>Monterey, CA | 08/2015 - 05/2018</h6>
                     </div>
                 </div>

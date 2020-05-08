@@ -1,9 +1,9 @@
 import React from 'react'
-
+// import Animation from './Animation.jsx'
 const About2 = () => {
     return (
         <div class='full-container blue-container'>
-            <div className="row">
+              <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                 <div className="col s12 m6 push-m6">
                 <h4 className="white-text">My career as a Software Engineer</h4>
                         <p className="flow-text white-text">
@@ -14,12 +14,11 @@ const About2 = () => {
                             only imagine.
                         </p>
                 </div>
-                <div className="col s12 m6 pull-m6 about-left">
-                    <p className="white-text about-left center-align">
-                        
-                    </p>
+                <div className="col s12 m6 pull-m6 about-left black-text">
+                    {/* <Animation/> */}
                 </div>
             </div>
+          
         </div>
     )
 }

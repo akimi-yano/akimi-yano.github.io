@@ -15,23 +15,23 @@ const NavBar = () => {
             <nav>
                 <div className="nav-wrapper white" >
                     <a href="#" className="brand-logo black-text" style={{marginLeft: "1vw"}}>
-                        <span class="hide-on-small-only"><FontAwesomeIcon icon="home"/></span>
+                        <span class="hide-on-small-only"><FontAwesomeIcon icon="home" style={{margin:'0 2px'}}/></span>
                         <h5 style={{display: "inline-block"}}>Akimi Yano</h5>
                     </a>
                     <ul className="right hide-on-med-and-down ">
-                        <li><a className="hover-ver" href="#about"><FontAwesomeIcon icon="seedling"/>About</a></li>
+                        <li><a className="hover-ver" href="#about"><FontAwesomeIcon icon="seedling" style={{margin:'0 1px'}}/>About</a></li>
                         <li>
                             <a style={{outline: 'none'}} class='dropdown-trigger hover-ver' href='#projects-title' data-target='dropdown1'>
-                                <FontAwesomeIcon icon="trophy"/>
+                                <FontAwesomeIcon icon="trophy" style={{margin:'0 3px'}}/>
                                 Projects
-                                <FontAwesomeIcon icon="caret-down"/>
+                                <FontAwesomeIcon icon="caret-down" style={{margin:'0 3px'}}/>
                             </a>
                         </li>
-                        <li><a className="hover-ver" href="#skills"><FontAwesomeIcon icon="star"/>Skills</a></li>
-                        <li><a className="hover-ver" href="#education"><FontAwesomeIcon icon="graduation-cap"/>Education</a></li>
-                        <li><a className="hover-ver" href="#experience"><FontAwesomeIcon icon="fire-alt"/>Experience</a></li>
-                        <li><a className="hover-ver" href="#courses"><FontAwesomeIcon icon="check-square"/>Courses</a></li>
-                        <li><a className="hover-ver" href="#contact"><FontAwesomeIcon icon="paper-plane"/>Contact</a></li>
+                        <li><a className="hover-ver" href="#skills"><FontAwesomeIcon icon="star" style={{margin:'0 1px'}}/>Skills</a></li>
+                        <li><a className="hover-ver" href="#education"><FontAwesomeIcon icon="graduation-cap" style={{margin:'0 3px'}}/>Education</a></li>
+                        <li><a className="hover-ver" href="#experience"><FontAwesomeIcon icon="fire-alt" style={{margin:'0 3px'}}/>Experience</a></li>
+                        <li><a className="hover-ver" href="#courses"><FontAwesomeIcon icon="check-square" style={{margin:'0 4px'}}/>Courses</a></li>
+                        <li><a className="hover-ver" href="#contact"><FontAwesomeIcon icon="paper-plane"style={{margin:'0 3px'}}/>Contact</a></li>
                     </ul>
                 </div>
             </nav>
