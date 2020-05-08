@@ -74,7 +74,7 @@ const Projects = () => {
 
                 <div className="divider grey darken-1"></div>
 
-                <div className="row">
+                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
                         <div div id='project3' className="scrollspy">
                             <h4 className="pink-text text-lighten-2">ice candi - Multilingual Video Chat</h4>
@@ -86,11 +86,11 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://fir-rtc-bf5c0.firebaseapp.com/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://fir-rtc-bf5c0.web.app/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/GeDXWhxfZ3s' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -100,7 +100,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='Project GIF' />
+                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/ic.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -131,7 +131,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='Project GIF' />
+                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/ic.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
