@@ -90,7 +90,7 @@ const Projects = () => {
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/GeDXWhxfZ3s' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/QaJl8ayN62E' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
