@@ -9,7 +9,7 @@ const MobileNav = () => {
                 <li><a href="#about">About</a></li>
                 <li class="no-padding">
                     <ul className="collapsible collapsible-accordion">
-                        <li className="bold"><a href="#projecttitle" className="collapsible-header" style={{padding: "0 32px"}}>Projects</a>
+                        <li className="bold"><a href="#projects-title" className="collapsible-header" style={{padding: "0 32px"}}>Projects</a>
                             <div className="collapsible-body">
                                 <ul>
                                     <li><a href="#project1" style={{padding: "0 48px"}}>1. Coronavirus Prediction</a></li>

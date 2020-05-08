@@ -37,6 +37,9 @@ const Body = () => {
         elems = document.querySelectorAll('.sidenav');
         M.Sidenav.init(elems);
 
+        elems = document.querySelectorAll('.collapsible');
+        M.Collapsible.init(elems);
+
         elems = document.querySelectorAll('.dropdown-trigger');
         M.Dropdown.init(elems, {constrainWidth: false, coverTrigger: false});
 
