@@ -17,7 +17,7 @@ const About5 = () => {
 -Kaggle competition </p> */}
                     <Contributions />
                     <p class="center-align">Check out my progress on <br/>
-                    <a href="https://github.com/akimi-yano" target="_blank">GitHub</a>, <a href="https://www.kaggle.com/akimiyano">Kaggle</a> and <a href="https://leetcode.com/codingrobot2020/">LeetCode</a> !</p>
+                    <a href="https://github.com/akimi-yano" target="_blank">GitHub</a>, <a href="https://www.kaggle.com/akimiyano" target="_blank">Kaggle</a> and <a href="https://leetcode.com/codingrobot2020/" target="_blank">LeetCode</a> !</p>
                 </div>
             </div>
         </div>

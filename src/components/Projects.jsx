@@ -181,7 +181,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='Project GIF' />
+                        <h4 className="grey center-align white-text">under construction ... <FontAwesomeIcon icon='wrench'  color="blue"/></h4>
                     </div>
                 </div>
 
