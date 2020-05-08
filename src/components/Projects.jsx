@@ -9,7 +9,7 @@ const Projects = () => {
                 <p className="flow-text center-align">Here are some of the projects I have built.</p>
             </div>
             <div id='portfolio' className='full-container'>
-                <div className="row">
+                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
                         <div div id='project1' className="scrollspy">
                             <h4 className="indigo-text text-darken-1">Coronavirus Forecast Center</h4>
@@ -26,7 +26,7 @@ const Projects = () => {
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/_MbivAzbbWI' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -36,13 +36,13 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='Project GIF' />
+                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/coronavirus.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
                 <div className="divider grey darken-1"></div>
 
-                <div className="row">
+                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
                         <div div id='project2' className="scrollspy">
                             <h4 className="cyan-text text-darken-1">Face Labo - Interactive Computer Vision</h4>
@@ -58,7 +58,7 @@ const Projects = () => {
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/keb4yA6N1Lc' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
@@ -68,7 +68,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='Project GIF' />
+                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/facelabo.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -100,13 +100,13 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/ic.gif'} alt='Project GIF' />
+                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/ic.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
                 <div className="divider grey darken-1"></div>
 
-                <div className="row">
+                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
                         <div div id='project4' className="scrollspy">
                             <h4 className="pokemon-text">Who's That Pokémon?</h4>
@@ -117,27 +117,27 @@ const Projects = () => {
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://akimi-yano.github.io/pokemon_guess.html' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Website" href='https://akimi-yano.github.io/v1-portfolio/pokemon_guess.html' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon='external-link-alt' size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Website</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='#' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://youtu.be/nFHi27qW1vQ' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
                             <div className='col s4'>
-                                <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/akimi-yano.github.io/blob/master/pokemon_guess.html' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/v1-portfolio/blob/master/pokemon_guess.html' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">GitHub</h6>
                             </div>
                         </div>
                     </div>
                     <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/ic.gif'} alt='Project GIF' />
+                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/pokemon.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
                 <div className="divider grey darken-1"></div>
 
-                <div className="row">
+                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
                         <div div id='project5' className="scrollspy">
                             <h4 className="yellow-text text-darken-3">Climbing Training System Analysis</h4>
@@ -158,14 +158,14 @@ const Projects = () => {
                             <div className='col s4'></div>
                         </div>
                     </div>
-                    <div className="col s12 m6">
-                        <img className="valign-center proj-gif" src="https://s3-us-west-1.amazonaws.com/portfolio-kyletsuyemura/mapshare.gif" alt='Project GIF' />
+                    <div className="col s12 m6 center-align">
+                        <img style={{height: "300px", width: "auto"}}  className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/my_first_project.png'} alt='Project GIF' />
                     </div>
                 </div>
 
                 <div className="divider grey darken-1"></div>
 
-                <div className="row">
+                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
                         <div div id='project6' className="scrollspy">
                             <h4 className="teal-text text-darken-1">IOT Face Recognition (仮)</h4>

@@ -88,9 +88,6 @@ nav ul li:hover {
   }
 
 
-.projgif {
-    width: 100px;
-}
 
 
 /* customizing container to be full width */
@@ -309,7 +306,7 @@ nav ul li:hover {
   Responsive Stuff
   ———————————————*/
   
-  @media (max-width: 945px) {
+  @media (max-width: 992px) {
     .timeline .event::before {
       left: 0.5px;
       top: 20px;
@@ -326,9 +323,19 @@ nav ul li:hover {
       padding: 5px;
       font-size: 16px
     }
+    .timeline .event:before {
+      left: -177.5px;
+      color: white;
+      content: attr(data-date);
+      text-align: right;
+      /*  font-weight: 100;*/
+      display: none;
+      font-size: 13px;
+      min-width: 120px;
+    }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .timeline .event::before {
       left: 0.5px;
       top: 20px;
@@ -345,6 +352,16 @@ nav ul li:hover {
     }
     .timeline p {
       padding-top: 20px;
+    }
+    .timeline .event:before {
+      left: -177.5px;
+      color: white;
+      content: attr(data-date);
+      text-align: right;
+      /*  font-weight: 100;*/
+      display: none;
+      font-size: 13px;
+      min-width: 120px;
     }
   }
   /*——————————————
@@ -420,16 +437,16 @@ nav ul li:hover {
   }
   
   .squares li[data-level="1"] {
-    background-color: #c6e48b;
+    background-color: rgb(198, 228, 139);
   }
   
   .squares li[data-level="2"] {
-    background-color: #7bc96f;
+    background-color: rgb(123, 201, 111);
   }
   
   .squares li[data-level="3"] {
-    background-color: #196127;
+    background-color: rgb(36, 154, 60);
   }
   .squares li[data-level="4"] {
-    background-color: #196127;
+    background-color: rgb(26, 97, 39);
   }

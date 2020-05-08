@@ -3,7 +3,7 @@ import React from 'react'
 const About3 = () => {
     return (
         <div className="full-container">
-            <div className="row">
+            <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                 <div className="col s12 m6">
                 <h4>My first project</h4>
                     <p className="flow-text">
@@ -14,7 +14,7 @@ const About3 = () => {
                         </p>
                 </div>
                 <div className="col s12 m6 center-align">
-                <a href="https://drive.google.com/open?id=1npccW930XvvozNk889DIkrJqdSbG1_-4" target="_blank"><img style={{width: "200px"}} class="first_project_pic hoverable" src="my_first_project.png" alt="my_first_project_img" /></a>
+                <a href="https://drive.google.com/open?id=1npccW930XvvozNk889DIkrJqdSbG1_-4" target="_blank"><img style={{width: "200px", border: "1px solid gray"}} class="first_project_pic hoverable" src="my_first_project.png" alt="my_first_project_img" /></a>
                 <p class="description">Used Python to find out which climbing problems have the highest possibility of being
                     completed for each difficulty level in climbing training system called "MoonBoard".</p>
                 </div>
