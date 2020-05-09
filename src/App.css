@@ -186,6 +186,10 @@ nav ul li:hover {
     }
 }
 
+.proj-gif {
+  max-width: 100%;
+}
+
 .pokemon-text {
     font-weight: bold;
     color: rgb(255, 204, 1);

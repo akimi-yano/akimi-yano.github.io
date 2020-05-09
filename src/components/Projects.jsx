@@ -36,7 +36,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/coronavirus.gif'} alt='Project GIF' />
+                        <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/coronavirus.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/facelabo.gif'} alt='Project GIF' />
+                        <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/facelabo.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -100,7 +100,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/ic.gif'} alt='Project GIF' />
+                        <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/ic.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -131,7 +131,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/pokemon.gif'} alt='Project GIF' />
+                        <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/pokemon.gif'} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -159,7 +159,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <img style={{height: "300px", width: "auto", border: "1px solid gray"}} className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/my_first_project.png'} alt='Project GIF' />
+                        <img style={{height: "300px", width: "auto", border: "1px solid gray"}} className="proj-gif" src={process.env.PUBLIC_URL + '/my_first_project.png'} alt='Project GIF' />
                     </div>
                 </div>
 
@@ -180,7 +180,7 @@ const Projects = () => {
                             <div className='col s4'></div>
                         </div>
                     </div>
-                    <div className="col s12 m6">
+                    <div className="col s12 m6 center-align">
                         <h4 className="grey center-align white-text">under construction ... <FontAwesomeIcon icon='wrench'  color="blue"/></h4>
                     </div>
                 </div>
