@@ -564,3 +564,23 @@ nav ul li:hover {
       transform: translate(0px);
     }
   } */
+
+  /* .blink_me {
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    0%, 100%{
+      opacity: 80%;
+    }
+    25% {
+      opacity: 65%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 65%;
+    }
+
+  } */

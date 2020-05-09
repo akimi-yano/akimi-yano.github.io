@@ -14,8 +14,9 @@ const About2 = () => {
                             only imagine.
                         </p>
                 </div>
-                <div className="col s12 m6 pull-m6 about-left black-text">
+                <div className="col s12 m6 pull-m6 about-left black-text center-align">
                     {/* <Animation/> */}
+                    <img class="blink_me" style={{marginTop: "30px", height: "auto", width: "100%", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/mountain.jpeg'} alt='journey'/>
                 </div>
             </div>
           
