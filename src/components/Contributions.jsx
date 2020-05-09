@@ -8,13 +8,15 @@ const Contributions = () => {
       const level = Math.floor(Math.random() * 4 + 1);
       squares.insertAdjacentHTML('beforeend', `<li class="progress-square" data-level="${level}"></li>`);
     }
-    setInterval(function () {
+    let interval = setInterval(function () {
       let sqs = document.querySelectorAll('.progress-square');
       sqs.forEach((item, index) => {
         let level = Math.floor(Math.random() * 4 + 1);
         item.setAttribute('data-level', level)
       })
     }, 2000)
+
+    return () => clearInterval(interval);
   }, [])
   return (
     <div>

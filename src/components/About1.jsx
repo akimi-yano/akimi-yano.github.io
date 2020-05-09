@@ -8,7 +8,7 @@ const About1 = () => {
         for (let i = 1; i < 4; i++) {
             $('#pic' + i).hide()
         }
-        setInterval(function () {
+        let interval = setInterval(function () {
             if (current == 3) {
                 current = 0
                 previous = 3
@@ -24,7 +24,10 @@ const About1 = () => {
             $('#text' + previous).removeClass("highlight")
 
         }, 2000)
-    })
+
+        return () => clearInterval(interval);
+    }, [])
+
     return (
         <div id='about' className="full-container scrollspy">
             <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
@@ -34,10 +37,10 @@ const About1 = () => {
                     <p className="flow-text">I am passionate about driving <span className="highlight" id="text0">Computer Vision</span> / <span id="text1">Machine Learning</span> project ideas into reality. In my spare time, I enjoy <span id="text2">learning foreign languages</span> and <span id="text3">rock climbing</span>.</p>
                 </div>
                 <div style={{paddingTop: "20px"}} className="col s12 m6 center-align">
-                        <img style={{maxHeight: '200px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/cvcarousel.jpeg'} alt="" id="pic0" class="carousel" />
-                        <img style={{maxHeight: '200px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/mlcarousel.png'} alt="" id="pic1" class="carousel hidden" />
-                        <img style={{maxHeight: '200px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/langcarousel.png'} alt="" id="pic2" class="carousel hidden" />
-                        <img style={{maxHeight: '200px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/climbingcarousel.jpg'} alt="" id="pic3" class="carousel hidden" />
+                        <img style={{maxHeight: '300px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/intro/intro1.jpg'} alt="" id="pic0" class="carousel" />
+                        <img style={{maxHeight: '300px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/intro/intro2.jpg'} alt="" id="pic1" class="carousel hidden" />
+                        <img style={{maxHeight: '300px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/intro/intro3.jpg'} alt="" id="pic2" class="carousel hidden" />
+                        <img style={{maxHeight: '300px', width: "auto", borderRadius: "2%"}} src={process.env.PUBLIC_URL + '/intro/intro4.jpg'} alt="" id="pic3" class="carousel hidden" />
                     <div class="markers">
                         <div id="mark0" class="marker marked"></div>
                         <div id="mark1" class="marker"></div>
