@@ -129,8 +129,6 @@ nav ul li:hover {
     }
 
     .full-container {
-        width: 100%;
-        max-width: none;
         padding-left: 7.5%;
         padding-right: 7.5%;
     }
@@ -150,8 +148,6 @@ nav ul li:hover {
 
 @media only screen and (min-width: 993px) {
     .full-container {
-        width: 100%;
-        max-width: none;
         padding-left: 15%;
         padding-right: 15%;
     }
@@ -169,10 +165,25 @@ nav ul li:hover {
     }
 }
 
-.proj-gif {
-    padding-top: 1vh;
-    height: auto;
-    width: 100%;
+@media only screen and (min-width: 2200px) {
+    .full-container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media only screen and (min-width: 2600px) {
+    .full-container {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .full-container {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
 }
 
 .pokemon-text {

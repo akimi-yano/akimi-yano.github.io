@@ -35,7 +35,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col s12 m6">
+                    <div className="col s12 m6 center-align">
                         <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/coronavirus.gif'} alt='Project GIF' />
                     </div>
                 </div>
@@ -67,7 +67,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col s12 m6">
+                    <div className="col s12 m6 center-align">
                         <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/facelabo.gif'} alt='Project GIF' />
                     </div>
                 </div>
@@ -99,7 +99,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col s12 m6">
+                    <div className="col s12 m6 center-align">
                         <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/ic.gif'} alt='Project GIF' />
                     </div>
                 </div>
@@ -130,7 +130,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col s12 m6">
+                    <div className="col s12 m6 center-align">
                         <img className="valign-center proj-gif" src={process.env.PUBLIC_URL + '/gifs/pokemon.gif'} alt='Project GIF' />
                     </div>
                 </div>
