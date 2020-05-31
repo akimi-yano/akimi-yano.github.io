@@ -14,11 +14,11 @@ const Projects = () => {
                         <div div id='project1' className="scrollspy">
                             <h4 className="indigo-text text-darken-1">Coronavirus Forecast Center</h4>
                         </div>
-                        <p>A world-map view of the predicted spread of confirmed cases and fatalities of the novel COVID-19 virus in 180+ countries using machine learning.</p>
+                        <p>World-map of predicted spread of confirmed cases and fatalities of COVID-19 in 180+ countries using machine learning.</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• Built and trained multiple machine-learning models from scratch using Kaggle dataset & Python notebook to generate prediction data over the next 30 days</li>
-                            <li>• Enabled real-time visualization & prediction of the spread of the virus by deploying a Java backend service using serverless Azure Functions</li>
-                            <li>• Demonstrated the accuracy by displaying a graphical comparison of real vs. predicted data</li>
+                            <li>• Built and trained multiple Light Gradient Boosting Model (LGBM) with Python, Pandas, Numpy, Matplotlib, Seaborn, Kaggle dataset, and Jupyter Notebook to generate prediction data over the next 30 days.</li>
+                            <li>• Enabled real-time prediction of the spread of the virus by deploying Java backend service using serverless Azure Functions to provide application access.</li>
+                            <li>• Demonstrated accuracy of predictions through visual graphical comparison of real vs. predicted data using JavaScript, Mapbox GLJS, and Recharts.</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
@@ -47,10 +47,10 @@ const Projects = () => {
                         <div div id='project2' className="scrollspy">
                             <h4 className="cyan-text text-darken-1">Face Labo - Interactive Computer Vision</h4>
                         </div>
-                        <p>A machine learning / computer vision web app that can count how many times a person blinks / winks or whether the person is sleepy from uploaded photos & videos.</p>
+                        <p>Machine learning / computer vision app counting how often a person blinks or whether they are sleepy from media files.</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• Applied computer vision techniques using OpenCV and Numpy and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc.</li>
-                            <li>• Realized interactive experience on a Python Django web app through a display of visual alert and image signaling in response to a triggered event to allow users to experience computer vision technology through exciting UI output</li>
+                            <li>• Applied computer vision techniques using Python, OpenCV, NumPy and numerical calculations of dots placed on facial features to determine whether users are winking, sleepy, blinking, etc. with 85% accuracy.</li>
+                            <li>• Designed interactive experience with Python and Django web app to display visual alerts and image signaling in response to triggered events, allowing users to experience CV technology through exciting UI output.</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>
@@ -79,10 +79,10 @@ const Projects = () => {
                         <div div id='project3' className="scrollspy">
                             <h4 className="pink-text text-lighten-2">ice candi - Multilingual Video Chat</h4>
                         </div>
-                        <p>A multilingual peer-to-peer video chat application with live speech-to-text translation.</p>
+                        <p>Multilingual peer-to-peer video chat application with live speech-to-text translation.</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• Delivered a seamless video chat experience by implementing WebRTC negotiation mechanism using the Firestore database and React web app</li>
-                            <li>• Empowered users to communicate through a humanized face-to-face / audial interaction and overcome language barriers using real-time speech-to-text translation between 8 languages powered by Azure Speech Translation API</li>
+                            <li>• Delivered seamless video chat experience through implementing WebRTC negotiation mechanism using Firestore database and JavaScript and React web application.</li>
+                            <li>• Empowered users to communicate through humanized face-to-face / audial interaction to overcome language barriers using real-time speech-to-text translation between 8 languages powered by Azure Speech Translation.</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'>

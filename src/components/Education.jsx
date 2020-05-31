@@ -14,7 +14,7 @@ const Education = () => {
                     </div>
                     <div className="col s12 m9">
                         <h5>Coding Dojo Bootcamp</h5>
-                        <h6>Triple Black Belt</h6>
+                        <h6>Computer Software Engineering - Triple Black Belt</h6>
                         <h6>San Jose, CA | 01/2020 - 05/2020</h6>
                         <li>Achieved Black Belt status, the highest level of knowledge achievement, on all 3 curriculums</li>
                         <li>Built, tested and deployed 3 full stack projects in Python Django, Java Spring Boot and JavaScript MERN</li>
