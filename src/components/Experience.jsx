@@ -13,7 +13,7 @@ const Experience = () => {
                         <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/google.png'}></img>
                     </div>
                     <div className="col s12 m9">
-                        <h5>Global Compliance Specialist</h5>
+                        <h5>Global Compliance, Hardware Technologies</h5>
                         <h6>Google, LLC</h6>
                         <h6>Sunnyvale, CA | 08/2019 - 01/2020</h6>
                         <li>Shortened average supplier turnaround time (TAT) by 30% by evaluating performance through data analysis of task metadata such as end-to-end completion time and codified delay signals with Google Sheets functions.</li>
@@ -26,7 +26,7 @@ const Experience = () => {
                         <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/huawei.png'}></img>
                     </div>
                     <div className="col s12 m9">
-                        <h5>Global Compliance Specialist</h5>
+                        <h5>Global Compliance, Hardware Technologies</h5>
                         <h6>Huawei Technologies, Inc.</h6>
                         <h6>Santa Clara, CA | 06/2018 - 08/2019</h6>
                         <li>Successfully drove 100% of company (2,000+ employees) to complete technology compliance training using Microsoft Excel functions to track company progress and following up via automated and manual processes.</li>
