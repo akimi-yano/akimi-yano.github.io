@@ -118,12 +118,20 @@ const Projects = () => {
                             <li>• Leveraged Twilio and Amazon S3 to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.</li>
                         </ul>
                         <div className='row center-align'>
-                            <div className='col s4'></div>
+                            <div className='col s4'>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Medium" href='https://link.medium.com/sdbXPqjL67' target='_blank' rel='noopener noreferrer'>
+                                    <FontAwesomeIcon icon={['fab', 'medium-m']} size='4x' color='black' />
+                                    <h6 className="black-text hide-on-large-only">Medium</h6>
+                                </a>
+                            </div>
                             <div className='col s4'>
                                 <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=5vqkS9ZKlRo' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
                                 <h6 className="hide-on-large-only">Video</h6>
                             </div>
-                            <div className='col s4'></div>
+                            <div className='col s4'>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="GitHub" href='https://github.com/akimi-yano/iot_ml_project' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} size="4x" color="black" /></a>
+                                <h6 className="hide-on-large-only">GitHub</h6>
+                            </div>
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
