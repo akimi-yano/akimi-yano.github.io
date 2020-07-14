@@ -8,7 +8,7 @@ const NavBar = () => {
                 <li><a className="black-text" href="#project1">1. Coronavirus Prediction</a></li>
                 <li><a className="black-text" href="#project2">2. Face Labo</a></li>
                 <li><a className="black-text" href="#project3">3. ice candi</a></li>
-                <li><a className="black-text" href="#project4">4. Donut Alert with Raspberry Pi</a></li>
+                <li><a className="black-text" href="#project4">4. Donut Alert</a></li>
                 <li><a className="black-text" href="#project5">5. Who's That Pokémon?</a></li>
                 <li><a className="black-text" href="#project6">6. Climbing Data Analysis</a></li>
                 
