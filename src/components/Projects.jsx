@@ -111,9 +111,11 @@ const Projects = () => {
                         <div div id='project4' className="scrollspy">
                             <h4 className="teal-text text-darken-1">Donut Alert with Raspberry Pi</h4>
                         </div>
-                        <p>Machine learning IoT alert system recognizing face and send text alert through Twilio.</p>
+                        <p>Real-time face recognition and text notification system using Raspberry Pi and  Intel NCS 2.</p>
                         <ul style={{ padding: "4vh 0" }}>
-                            <li>• Built with Raspberry Pi, Python3, OpenCV, NumPy, Twilio, Intel Neural Compute Stick 2</li>
+                            <li>• Programmed Raspberry Pi to take live camera data and pass through a face detection/recognition model.</li>
+                            <li>• Trained and ran face detection/recognition model with Intel’s Movidius Neural Compute Stick 2 to speed up face detection/recognition by 200+%.</li>
+                            <li>• Leveraged Twilio and Amazon S3 to notify the user in real-time with a text and photo when unauthorized individuals appeared on the camera.</li>
                         </ul>
                         <div className='row center-align'>
                             <div className='col s4'></div>
