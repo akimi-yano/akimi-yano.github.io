@@ -125,7 +125,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="col s12 m6 center-align">
-                        <h4 className="grey center-align white-text">under construction ... <FontAwesomeIcon icon='wrench'  color="blue"/></h4>
+                        <img className="proj-gif" src={process.env.PUBLIC_URL + '/gifs/donut.gif'} alt='Donut GIF' />
                     </div>
                 </div>
 
