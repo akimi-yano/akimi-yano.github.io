@@ -17,6 +17,7 @@ const Courses = () => {
                 <div className="col s12 m9">
                     <h5>Udemy</h5>
                     <h6>Machine Learning A-Z</h6>
+                    <h6>Intro to Linux Shell Scripting</h6>
                 </div>
             </div>
 

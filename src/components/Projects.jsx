@@ -109,6 +109,31 @@ const Projects = () => {
                 <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
                         <div div id='project4' className="scrollspy">
+                            <h4 className="teal-text text-darken-1">Donut Alert with Raspberry Pi</h4>
+                        </div>
+                        <p>Machine learning IoT alert system recognizing face and send text alert through Twilio.</p>
+                        <ul style={{ padding: "4vh 0" }}>
+                            <li>• Built with Raspberry Pi, Python3, OpenCV, NumPy, Twilio, Intel Neural Compute Stick 2</li>
+                        </ul>
+                        <div className='row center-align'>
+                            <div className='col s4'></div>
+                            <div className='col s4'>
+                                <a className="tooltipped" data-position="bottom" data-tooltip="Video" href='https://www.youtube.com/watch?v=5vqkS9ZKlRo' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" color="black" /></a>
+                                <h6 className="hide-on-large-only">Video</h6>
+                            </div>
+                            <div className='col s4'></div>
+                        </div>
+                    </div>
+                    <div className="col s12 m6 center-align">
+                        <h4 className="grey center-align white-text">under construction ... <FontAwesomeIcon icon='wrench'  color="blue"/></h4>
+                    </div>
+                </div>
+
+                <div className="divider grey darken-1"></div>
+
+                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
+                    <div className="col s12 m6">
+                        <div div id='project5' className="scrollspy">
                             <h4 className="pokemon-text">Who's That Pokémon?</h4>
                         </div>
                         <p>I built a "Who's That Pokémon?" game.</p>
@@ -139,7 +164,7 @@ const Projects = () => {
 
                 <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
                     <div className="col s12 m6">
-                        <div div id='project5' className="scrollspy">
+                        <div div id='project6' className="scrollspy">
                             <h4 className="yellow-text text-darken-3">Climbing Training System Analysis</h4>
                         </div>
                         <p>Analyzed data from Moon Board rock climbing training system, and identified the easiest Moon Board problems at each difficulty level using Python</p>
@@ -163,27 +188,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="divider grey darken-1"></div>
+                
 
-                <div style={{flexWrap: "wrap"}} className="row valign-wrapper">
-                    <div className="col s12 m6">
-                        <div div id='project6' className="scrollspy">
-                            <h4 className="teal-text text-darken-1">IOT Face Recognition (仮)</h4>
-                        </div>
-                        <p>I am building a machine learning IOT that detect and recognize face of human. Work in progress.</p>
-                        <ul style={{ padding: "4vh 0" }}>
-                            <li>• Building with Raspberry Pi, Python3, Open CV, NumPy, Intel Neural Compute Stick 2</li>
-                        </ul>
-                        <div className='row center-align'>
-                            <div className='col s4'></div>
-                            <div className='col s4'></div>
-                            <div className='col s4'></div>
-                        </div>
-                    </div>
-                    <div className="col s12 m6 center-align">
-                        <h4 className="grey center-align white-text">under construction ... <FontAwesomeIcon icon='wrench'  color="blue"/></h4>
-                    </div>
-                </div>
+         
 
             </div>
         </div>
