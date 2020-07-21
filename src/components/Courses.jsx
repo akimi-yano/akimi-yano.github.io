@@ -18,7 +18,9 @@ const Courses = () => {
                     <h5>Udemy</h5>
                     <h6>Machine Learning A-Z</h6>
                     <h6>Intro to Linux Shell Scripting</h6>
+                    <h6>Learn The Linux Command Line: Basic Commands</h6>
                     <h6>Responsive Design with NEW Materialize</h6>
+                            
                 </div>
             </div>
 
