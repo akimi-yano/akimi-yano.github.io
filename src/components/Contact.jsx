@@ -36,9 +36,9 @@ const Contact = () => {
                 </div>
                 <div style={{flexWrap: 'wrap'}} className="row valign-wrapper">
                     <div className="col s6 m3">
-                        <a className="tooltipped" data-position="bottom" data-tooltip="Animated Portfolio" href='mailto:akimi.mimi.yano@gmail.com' target='_blank' rel='noopener noreferrer'>
-                            <FontAwesomeIcon icon="gamepad" size='4x' color='black' />
-                            <h6 className="black-text hide-on-large-only">Animated Portfolio</h6></a>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="Youtube" href='https://www.youtube.com/channel/UCG19n6miJUCUKhLILJYmODA/featured' target='_blank' rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={['fab', 'youtube']} size='4x' color='black' />
+                            <h6 className="black-text hide-on-large-only">Youtube</h6></a>
                     </div>
                     <div className="col s6 m3">
                         <a className="tooltipped" data-position="bottom" data-tooltip="AI Competition" href='https://www.kaggle.com/akimiyano' target='_blank' rel='noopener noreferrer'>
