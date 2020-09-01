@@ -10,6 +10,30 @@ const Experience = () => {
             <div className="full-container">
                 <div className="row">
                     <div className="col s12 m3 center-align">
+                        <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/finli.jpeg'}></img>
+                    </div>
+                    <div className="col s12 m9">
+                        <h5>Software Engineer Intern</h5>
+                        <h6>Finli</h6>
+                        <h6>Sunnyvale, CA | 07/2020 - present</h6>
+                        <li>Migrated and revamped the iOS/Android mobile app built on React Native for the Version 2 launch.</li>
+                        <li>Updated legacy documentation with clear, actionable step-by-step commands for Docker, PostgreSQL database and TablePlus, improving development environment setup process for new engineers.</li>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col s12 m3 center-align">
+                        <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/dojo.png'}></img>
+                    </div>
+                    <div className="col s12 m9">
+                        <h5>Software Engineer Teaching Assistant</h5>
+                        <h6>Coding Dojo</h6>
+                        <h6>Sunnyvale, CA | 08/2020 - present</h6>
+                        <li>Teaching and supporting students who are learning remotely through the Online Coding Bootcamp program.</li>
+                        <li>Providing mentorship and help across various tech stacks (Python Django, MERN, Java Spring/Spring Boot, Web Fundamentals).</li>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col s12 m3 center-align">
                         <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/google.png'}></img>
                     </div>
                     <div className="col s12 m9">

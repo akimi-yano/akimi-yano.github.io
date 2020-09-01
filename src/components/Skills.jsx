@@ -18,10 +18,10 @@ const Skills = () => {
                 </div>
                 <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
                     <div className="col s12 m6 center-align">
-                        <h5>Machine Learning</h5>
+                        <h5>Front End</h5>
                     </div>
                     <div className="col s12 m6">
-                        <h6>OpenCV, NumPy, Pandas, scikit-learn, matplotlib, seaborn</h6>
+                        <h6>ReactJS, React Native, jQuery, Axios, Bootstrap, Mapbox, Materialize, Material-UI</h6>
                     </div>
                 </div>
                 <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
@@ -50,26 +50,10 @@ const Skills = () => {
                 </div>
                 <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
                     <div className="col s12 m6 center-align">
-                        <h5>Front End</h5>
-                    </div>
-                    <div className="col s12 m6">
-                        <h6>ReactJS, jQuery, Axios, Bootstrap, Mapbox, Materialize, Material-UI</h6>
-                    </div>
-                </div>
-                <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
-                    <div className="col s12 m6 center-align">
                         <h5>Databases</h5>
                     </div>
                     <div className="col s12 m6">
-                        <h6>MongoDB, MySQL, Cloud Firestore</h6>
-                    </div>
-                </div>
-                <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
-                    <div className="col s12 m6 center-align">
-                        <h5>Software</h5>
-                    </div>
-                    <div className="col s12 m6">
-                        <h6>Git, Linux</h6>
+                        <h6>MySQL, PostgreSQL, Cloud Firestore, MongoDB</h6>
                     </div>
                 </div>
                 <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
@@ -78,6 +62,22 @@ const Skills = () => {
                     </div>
                     <div className="col s12 m6">
                         <h6>RESTful / CRUD, API Design, AJAX</h6>
+                    </div>
+                </div>
+                <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
+                    <div className="col s12 m6 center-align">
+                        <h5>Machine Learning</h5>
+                    </div>
+                    <div className="col s12 m6">
+                        <h6>OpenCV, NumPy, Pandas, scikit-learn, matplotlib, seaborn</h6>
+                    </div>
+                </div>  
+                <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
+                    <div className="col s12 m6 center-align">
+                        <h5>Software</h5>
+                    </div>
+                    <div className="col s12 m6">
+                        <h6>Git, Linux, Docker</h6>
                     </div>
                 </div>
                 <div style={{flexWrap: "wrap", marginBottom: 0}} className="row valign-wrapper">
