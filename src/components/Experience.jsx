@@ -25,7 +25,7 @@ const Experience = () => {
                         <img style={{ paddingTop: "20px", height: "70px" }} src={process.env.PUBLIC_URL + '/dojo.png'}></img>
                     </div>
                     <div className="col s12 m9">
-                        <h5>Software Engineer Teaching Assistant</h5>
+                        <h5>Software Engineering Teaching Assistant</h5>
                         <h6>Coding Dojo</h6>
                         <h6>Sunnyvale, CA | 08/2020 - present</h6>
                         <li>Teaching and supporting students who are learning remotely through the Online Coding Bootcamp program.</li>
