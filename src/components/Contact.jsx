@@ -24,7 +24,7 @@ const Contact = () => {
                             <h6 className="black-text hide-on-large-only">LinkedIn</h6></a>
                     </div>
                     <div className="col s6 m3">
-                        <a className="tooltipped" data-position="bottom" data-tooltip="Resume" href='https://drive.google.com/file/d/1n58fUMm2rtLCHicLLxOVXKlztvkS3UW5/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                        <a className="tooltipped" data-position="bottom" data-tooltip="Resume" href='https://drive.google.com/file/d/1Lpv2qxetRLxxXdZX5UBlvKOvuQ4M4exh/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
                             <FontAwesomeIcon icon='file-pdf' size='4x' color='black' />
                             <h6 className="black-text hide-on-large-only">Resume</h6></a>
                     </div>
