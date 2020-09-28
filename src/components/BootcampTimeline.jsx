@@ -5,7 +5,7 @@ const BootcampTimeline = () => {
         <div >
             <ul class="timeline white" style={{ borderRadius: "0%", paddingTop: "1px"}}>
                 <li class="event">
-                    <h5 >January</h5>
+                    <h5 >Month 1</h5>
                     <div style={{flexWrap: "wrap"}}class="valign-wrapper">
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/htmlcss.png'}></img>
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/mysql.png'}></img>
@@ -14,7 +14,7 @@ const BootcampTimeline = () => {
                     </div>
                 </li>
                 <li class="event">
-                    <h5 >February</h5>
+                    <h5 >Month 2</h5>
                     <div style={{flexWrap: "wrap"}}class="valign-wrapper">
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/python.png'}></img>
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/opencv.png'}></img>
@@ -25,7 +25,7 @@ const BootcampTimeline = () => {
                     </div>
                 </li>
                 <li class="event">
-                    <h5 >March</h5>
+                    <h5 >Month 3</h5>
                     <div style={{flexWrap: "wrap"}}class="valign-wrapper">
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/socketio.png'}></img>
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/mongodb.png'}></img>
@@ -37,7 +37,7 @@ const BootcampTimeline = () => {
                     </div>
                 </li>
                 <li class="event">
-                    <h5>April</h5>
+                    <h5>Month 4</h5>
                     <div style={{flexWrap: "wrap"}}class="valign-wrapper">
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/java.png'}></img>
                     <img style={{ height: "30px", margin: "15px 10px" }} src={process.env.PUBLIC_URL + '/tech/pandas.png'}></img>
@@ -48,7 +48,7 @@ const BootcampTimeline = () => {
                     </div>
                 </li>
                 <li class="event"  style={{ paddingBottom: '20px' }}>
-                    <h5>May</h5>
+                    <h5>Month 5</h5>
                     <p>Graduated ! <FontAwesomeIcon icon="graduation-cap" color="indigo" size="2x"/></p>
                     {/* <p>
                         Continue to My Life These Days <FontAwesomeIcon icon='hand-point-down' size='4x' color='black' />

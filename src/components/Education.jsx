@@ -15,7 +15,7 @@ const Education = () => {
                     <div className="col s12 m9">
                         <h5>Coding Dojo Bootcamp</h5>
                         <h6>Computer Software Engineering - Triple Black Belt</h6>
-                        <h6>San Jose, CA | 01/2020 - 05/2020</h6>
+                        <h6>San Jose, CA | 2020</h6>
                         <li>Achieved Black Belt status, the highest level of knowledge achievement, on all 3 curriculums</li>
                         <li>Built, tested and deployed 3 full stack projects in Python Django, Java Spring Boot and JavaScript MERN</li>
                         <li>Consistently executed beyond the curriculum by integrating self-taught technologies that applied machine learning, computer vision, and speech translation</li>
@@ -30,7 +30,7 @@ const Education = () => {
                         <h5>Middlebury Institute of International Studies at Monterey</h5>
                         <h6>Master of Public Administration (MPA)</h6> 
                         <h6>Master in International Trade and Economics</h6>
-                        <h6>Monterey, CA | 08/2015 - 05/2018</h6>
+                        <h6>Monterey, CA | 2018</h6>
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@ const Education = () => {
                     <div className="col s12 m9">
                         <h5>Ritsumeikan University</h5>
                         <h6>Bachelors in International Relations</h6>
-                        <h6>Kyoto, Japan | 04/2010 - 09/2014</h6>
+                        <h6>Kyoto, Japan | 2014</h6>
                     </div>
                 </div>
             </div>
